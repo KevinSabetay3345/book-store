@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap");
+.all-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.all-items .cart-title {
+  font-size: 1.4rem;
+}
+
+.all-items .list-width {
+  width: 100%;
+}
+
+.all-items .divider {
+  margin: 0 auto;
+  width: 90%;
+  border-top: 1px solid #bbb;
+}
+
+.all-items .payment-grid {
+  width: 90%;
+  margin: 50px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-areas: " . . title value ";
+  justify-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: italic;
+  color: #ff0072;
+}
+
+.all-items .payment-grid .payment-title {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: title;
+}
+
+.all-items .payment-grid .payment-value {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: value;
+}
+
+.all-items .payment-button {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.all-items .payment-button .payment-btn {
+  margin-bottom: 20px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#f46b45), to(#eea849));
+  background: linear-gradient(to top right, #f46b45, #eea849);
+  color: #FFF;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: background 300ms ease-in;
+  transition: background 300ms ease-in;
+}
+
+.all-items .payment-button .payment-btn:hover {
+  background: -webkit-gradient(linear, right top, left bottom, from(#f46b45), to(#eea849));
+  background: linear-gradient(to bottom left, #f46b45, #eea849);
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .all-items .payment-grid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: " title value ";
+  }
+}
+
+@media (max-width: 300px) {
+  .all-items .payment-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .all-items .payment-button {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=ShowCart.css.map */

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.book-cover {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+
+    .img {
+        position: absolute;
+        
+        img {
+            width: 150px;
+            height: 200px;
+        }
+    }
+
+    .img-hover-details {
+        width: 150px;
+        height: 200px;
+        position: absolute;
+        background: rgba(black, 0.7);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 10px;
+        z-index: -1;
+        cursor: pointer;
+
+        .saleability {
+            font-size: 1.4rem;
+        }
+
+        .title {
+            font-weight: 400;
+        }
+
+        .subtitle {
+            font-size: 0.8rem;
+            font-weight: 300;
+        }
+    }
+}
+.book-cover:hover {
+    transform: scale(1.15);
+
+    .img-hover-details {
+        
+        transition: background 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out;
+        
+        z-index: 1;
+    }
+}

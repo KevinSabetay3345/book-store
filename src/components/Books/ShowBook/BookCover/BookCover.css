@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+.book-cover {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  width: 150px;
+  height: 200px;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.book-cover .img {
+  position: absolute;
+}
+
+.book-cover .img img {
+  width: 150px;
+  height: 200px;
+}
+
+.book-cover .img-hover-details {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.book-cover .img-hover-details .saleability {
+  font-size: 1.4rem;
+}
+
+.book-cover .img-hover-details .title {
+  font-weight: 400;
+}
+
+.book-cover .img-hover-details .subtitle {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.book-cover:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.book-cover:hover .img-hover-details {
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  z-index: 1;
+}
+/*# sourceMappingURL=BookCover.css.map */

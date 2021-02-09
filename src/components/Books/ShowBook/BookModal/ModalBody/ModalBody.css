@@ -1,0 +1,48 @@
+.book-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.book-information .basic-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.book-information .basic-detail .book-img img {
+  width: 150px;
+}
+
+.book-information .basic-detail .short-details {
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.book-information .basic-detail .short-details #title {
+  font-weight: 500;
+}
+
+.book-information .basic-detail .short-details #authors {
+  font-weight: 400;
+}
+
+.book-information .basic-detail .short-details #publishedDate {
+  font-weight: 300;
+}
+
+.book-information .basic-detail .short-details #pageCount {
+  font-weight: 100;
+}
+/*# sourceMappingURL=ModalBody.css.map */

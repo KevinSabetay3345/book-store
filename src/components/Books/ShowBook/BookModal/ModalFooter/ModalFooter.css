@@ -1,0 +1,110 @@
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer-content .show-success {
+  position: absolute;
+  background: rgba(92, 184, 17, 0.8);
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0 20px;
+  line-height: 40px;
+  cursor: default;
+  opacity: 0.8;
+  -webkit-animation: popup 500ms ease-in;
+          animation: popup 500ms ease-in;
+}
+
+@-webkit-keyframes popup {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes popup {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.footer-content .action-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 30px;
+  border: 0;
+  margin: 0;
+  background: #10bbd5;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  cursor: default;
+  font-weight: bold;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: opacity 500ms ease-out;
+  transition: opacity 500ms ease-out;
+}
+
+.footer-content .action-btn .icon {
+  margin-left: 5px;
+  font-size: 1.2rem;
+}
+
+.footer-content .action-btn #read-icon {
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+.footer-content .action-btn:hover {
+  background-color: #3edbf3;
+}
+
+.footer-content .fade-out {
+  opacity: 0;
+}
+
+.footer-content .action-btn a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer-content .not-for-sale {
+  background: #ff9800;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0 20px;
+  line-height: 40px;
+}
+/*# sourceMappingURL=ModalFooter.css.map */

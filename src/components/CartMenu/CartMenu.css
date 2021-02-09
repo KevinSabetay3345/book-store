@@ -1,0 +1,61 @@
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.app-cart .cart-quantity {
+  color: #09a790;
+}
+
+.app-cart .cart-price {
+  color: #ff0072;
+}
+
+.app-cart .cart-icon {
+  font-size: 1.5rem;
+  margin-left: 5px;
+}
+
+@media (max-width: 660px) {
+  .app-cart {
+    margin-top: 30px;
+  }
+}
+
+/*
+.app-cart::before {
+    content: '';
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height: 2px;
+    background: linear-gradient(to top right, #f46b45, #eea849);
+    transition: transform 400ms ease-in-out;
+
+    transform: scaleX(0);
+}
+
+.app-cart:hover::before,
+.app-cart:focus::before {
+    transform: scaleX(1);
+}
+*/
+/*# sourceMappingURL=CartMenu.css.map */

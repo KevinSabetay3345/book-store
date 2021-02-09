@@ -1,0 +1,111 @@
+.item-grid {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: " img detail . actions";
+    align-items: center;
+}
+
+.item-grid > div {
+    padding: 20px 0;
+}
+
+.item-img {
+    grid-area: img;
+    display: flex;
+}
+
+.item-detail {
+    grid-area: detail;
+    display: flex;
+    direction: column;
+
+    .item-description {
+        padding: 0 10%;
+        text-align: start;
+        font-style: italic;
+
+        .item-authors {
+            font-size: 1rem;
+            font-weight: 100;
+        }
+
+        .item-price {
+            color: #ff0072;
+        }
+        
+    }
+}
+
+.item-actions {
+    grid-area: actions;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .item-quantity {
+        display:flex;
+        align-items: center;
+    
+        .quantity-text {
+            font-weight: 300;
+            padding-right: 10px;
+        }
+    
+        .quantity-select {
+            padding: 5px;
+            cursor: pointer;
+        }
+    }
+    .sum-price {
+       color: #ff0072;
+    }
+
+    .item-delete {
+        max-width: 50%;
+        position: relative;
+        background: linear-gradient(to top right, #f46b45, #eea849);
+        color: #f9f9f9;
+        font-size: 0.8rem;
+        text-decoration: none;
+        border: none;
+        padding: 8px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 400ms ease-in-out;
+    }
+    
+    .item-delete:hover {
+        background: linear-gradient(to bottom left, #f46b45, #eea849);
+    }
+
+}
+
+@media (min-width: 301px) and (max-width: 600px){
+    .item-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        " img detail " 
+        " actions actions ";
+    
+    }
+    
+    .item-actions {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 300px){
+    .item-grid {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+}
