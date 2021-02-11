@@ -13,12 +13,19 @@ export function BookList(){
     } else if (!isLoaded) {
         return <div className="loader"></div>;
     } else {
+        if (books.length > 0){
+            return (
+            <div className="grid-books">
+                {books.map(book => (
+                    <ShowBook book={book} key={book.id} />
+                ))}
+            </div>
+            );
+        }
         return (
-        <div className="grid-books">
-            {books && books.map(book => (
-                <ShowBook book={book} key={book.id} />
-            ))}
-        </div>
+            <div className="error">
+                No se encontraron libros. Ingrese otro término de busqueda.
+            </div>
         );
     }
 
