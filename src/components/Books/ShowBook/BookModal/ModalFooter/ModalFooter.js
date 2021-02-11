@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addItem  } from '../../../../../actions/CartActions';
 import { ShoppingCartOutlined, ReadOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 import './ModalFooter.css';
 
 
@@ -18,15 +19,19 @@ export const ModalFooter = ( { book } ) => {
     if (book.saleInfo.saleability === "FOR_SALE") {
       return (
           <div className="footer-content">
-            {  existsInCart && <div className="show-success">Libro añadido al carrito</div> }
-            <button 
-              className={ existsInCart ? "action-btn fade-out" : "action-btn" } 
-              onClick={ () => dispatch( addItem(book) ) }
-              disabled={ existsInCart ? "disabled" : "" }
-            >
-                {/* sacar las <p> */}
-              <p> AR${ book.saleInfo.retailPrice.amount }</p> <span className="icon"><ShoppingCartOutlined/></span>
-            </button>
+            { existsInCart && <Link to="/cart" className="go-to-cart"><ShoppingCartOutlined/></Link> }
+            
+            <div className="action-btn-container">
+              { existsInCart && <div className="show-success">Libro añadido al carrito</div> }
+            
+              <button 
+                className={ existsInCart ? "action-btn fade-out" : "action-btn" } 
+                onClick={ () => dispatch( addItem(book) ) }
+                disabled={ existsInCart ? "disabled" : "" }
+              >
+                <p> AR${ book.saleInfo.retailPrice.amount }</p> <span className="icon"><ShoppingCartOutlined/></span>
+              </button>
+            </div>
           </div>
       );
     }

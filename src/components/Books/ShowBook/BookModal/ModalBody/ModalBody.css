@@ -20,13 +20,17 @@
           align-items: center;
 }
 
+.book-information .basic-detail .book-img {
+  width: 150px;
+}
+
 .book-information .basic-detail .book-img img {
   width: 150px;
 }
 
 .book-information .basic-detail .short-details {
   padding-left: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
 }
 

@@ -9,7 +9,6 @@ export function BookList(){
     const books = useSelector(state => state.books.bookList);
 
     if (error.message !== undefined) {
-        console.log("netro");
         return <div className="error">Error: {error.message}</div>;
     } else if (!isLoaded) {
         return <div className="loader"></div>;

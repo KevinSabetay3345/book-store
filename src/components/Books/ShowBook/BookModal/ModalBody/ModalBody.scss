@@ -1,38 +1,40 @@
 .book-information {
+  display: flex;
+  flex-wrap: wrap;
+
+  .basic-detail {
     display: flex;
     flex-wrap: wrap;
-    
-    .basic-detail {
-      display:flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+    justify-content: center;
+    align-items: center;
 
-      .book-img img {
-        width: 150px;
+    .book-img {
+      width: 150px;
+    }
+    .book-img img {
+      width: 150px;
+    }
+
+    .short-details {
+      padding-left: 10px;
+      font-family: "Roboto", sans-serif;
+      font-style: italic;
+
+      #title {
+        font-weight: 500;
       }
-      
-      .short-details {
-        padding-left: 10px;
-        font-family: 'Roboto', sans-serif;
-        font-style: italic;
 
-        #title {
-          font-weight: 500;
-        }
+      #authors {
+        font-weight: 400;
+      }
 
-        #authors {
-          font-weight: 400;
-        }
+      #publishedDate {
+        font-weight: 300;
+      }
 
-        #publishedDate {
-          font-weight: 300;
-        }
-
-        #pageCount {
-          font-weight: 100;
-        }
+      #pageCount {
+        font-weight: 100;
       }
     }
-    
+  }
 }

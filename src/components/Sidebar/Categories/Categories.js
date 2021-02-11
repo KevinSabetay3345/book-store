@@ -3,17 +3,28 @@ Este componente hubiese estado mejor si la API de Google Books tenia una query p
 This component would be better if Google Books API has a query to get the categories.
 */
 
-import React, { useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import './Categories.css';
 import { Link } from 'react-router-dom';
 import { fetchBooks } from '../../../actions/BookActions';
-import {useDispatch} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 
 export function Categories(){
     const [ selected, setSelected ] = useState("");
     const dispatch = useDispatch();
+    const isLoaded = useSelector(state => state.books.isLoaded);
+    const searchFromCategorie = useRef(false);
+
+    /* when search is made with searchBar, categorie stops selecting */
+    useEffect( () => {
+        if (!searchFromCategorie.current && !isLoaded) {
+            setSelected("");
+        }
+        searchFromCategorie.current = false;
+    }, [isLoaded])
 
     function handleClick(e){
+        searchFromCategorie.current = true;
         setSelected(e.target.value);
         dispatch( fetchBooks(e.target.value) );
     }

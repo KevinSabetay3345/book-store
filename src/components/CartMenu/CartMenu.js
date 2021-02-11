@@ -11,12 +11,14 @@ export function CartMenu() {
   const totalPrice = getTotalPrice(cart);
 
     return (
-          <Link to="cart" className="app-cart">
-                <div className="cart-text">
-                    <span className="cart-quantity">{cart.length}</span> Productos | AR$
-                    <span className="cart-price">{ totalPrice }</span>
-                </div>                
-                <ShoppingCartOutlined className="cart-icon" />
-          </Link>
+          <div className="link-container">
+            <Link to="cart" className="app-cart">
+                  <div className="cart-text">
+                        <span className="cart-quantity">{cart.length}</span> Productos | AR$
+                        <span className="cart-price">{ totalPrice }</span>
+                  </div>                
+                  <ShoppingCartOutlined className="cart-icon" />
+            </Link>
+          </div>
     )
 }

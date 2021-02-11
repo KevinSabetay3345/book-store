@@ -1,9 +1,25 @@
-a, a:hover, a:focus, a:active {
+.link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: inherit;
 }
 
 .app-cart {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,10 +30,8 @@ a, a:hover, a:focus, a:active {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1rem;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .app-cart .cart-quantity {
@@ -39,23 +53,26 @@ a, a:hover, a:focus, a:active {
   }
 }
 
-/*
 .app-cart::before {
-    content: '';
-    position: absolute;
-    left:0;
-    right:0;
-    bottom:0;
-    height: 2px;
-    background: linear-gradient(to top right, #f46b45, #eea849);
-    transition: transform 400ms ease-in-out;
-
-    transform: scaleX(0);
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 2px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#f46b45), to(#eea849));
+  background: linear-gradient(to top right, #f46b45, #eea849);
+  -webkit-transition: -webkit-transform 400ms ease-in-out;
+  transition: -webkit-transform 400ms ease-in-out;
+  transition: transform 400ms ease-in-out;
+  transition: transform 400ms ease-in-out, -webkit-transform 400ms ease-in-out;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
 }
 
 .app-cart:hover::before,
 .app-cart:focus::before {
-    transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
-*/
 /*# sourceMappingURL=CartMenu.css.map */
