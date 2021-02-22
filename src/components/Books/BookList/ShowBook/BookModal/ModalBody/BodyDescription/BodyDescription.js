@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './BodyDescription.css';
+import PropTypes from 'prop-types';
 
 export const BodyDescription = ( { description } ) => {
     const [seeMore, setSeeMore] = useState(true);
@@ -19,4 +20,8 @@ export const BodyDescription = ( { description } ) => {
         return <p>{ description }</p>;
     }
     return <></>;
+}
+
+BodyDescription.propTypes = {
+    description: PropTypes.string
 }

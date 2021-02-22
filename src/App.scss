@@ -9,14 +9,18 @@
   min-height: 100vh;
   background: #09a790;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+}
 
 .main-header {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    align-content: space-between;
-    background: #f1f5f8;
-    padding: 25px 25px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: space-between;
+  background: #f1f5f8;
+  padding: 25px 25px;
 }

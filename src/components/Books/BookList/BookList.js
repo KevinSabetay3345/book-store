@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShowBook } from '../ShowBook/ShowBook';
+import { ShowBook } from './ShowBook/ShowBook';
 import './BookList.css';
 import { useSelector } from 'react-redux';
 

@@ -6,9 +6,9 @@ import { BookList } from './components/Books/BookList/BookList';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import { ShowCart } from './components/Cart/ShowCart/ShowCart';
 import { fetchBooks } from './actions/BookActions';
-import { SearchBar } from './components/SearchBar/SearchBar';
-import { CartMenu } from './components/CartMenu/CartMenu';
-
+import { SearchBar } from './components/Header/SearchBar/SearchBar';
+import { CartMenu } from './components/Header/CartMenu/CartMenu';
+import { OrderBy } from './components/Books/OrderBy/OrderBy';
 
 function App() {
   const dispatch = useDispatch();
@@ -39,6 +39,7 @@ function App() {
             </Route>
             
             <Route path="/">
+                <OrderBy />
                 <BookList />
             </Route>
           </Switch>

@@ -3,7 +3,7 @@ import { SearchOutlined } from '@ant-design/icons';
 import './SearchBar.css';
 import { useHistory } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchBooks } from '../../actions/BookActions';
+import { fetchBooks } from '../../../actions/BookActions';
 
 export function SearchBar() {
   let history = useHistory();

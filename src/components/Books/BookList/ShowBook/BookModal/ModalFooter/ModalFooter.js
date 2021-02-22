@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addItem  } from '../../../../../actions/CartActions';
+import { addItem  } from '../../../../../../actions/CartActions';
 import { ShoppingCartOutlined, ReadOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import './ModalFooter.css';

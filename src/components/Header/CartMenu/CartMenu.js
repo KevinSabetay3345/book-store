@@ -3,7 +3,7 @@ import { ShoppingCartOutlined } from '@ant-design/icons';
 import './CartMenu.css';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { getTotalPrice } from '../../actions/CartActions';
+import { getTotalPrice } from '../../../actions/CartActions';
 
 
 export function CartMenu() {

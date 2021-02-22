@@ -22,6 +22,36 @@ export const fetchBooks = (searchCode) => (dispatch) => {
     })
 }
 
+export function orderBooks(books, orderType){
+    switch (orderType){
+        case "LOW_PRICE" :
+            return {
+                type: "SET_BOOKS",
+                payload: { books: [...books].sort((a, b) => ( (a.saleInfo.retailPrice) ? a.saleInfo.retailPrice.amount : 1 ) > ( (b.saleInfo.retailPrice) ? b.saleInfo.retailPrice.amount : 1 ) ? 1 : -1) }
+            };
+        case "HIGH_PRICE" :
+            return {
+                type: "SET_BOOKS",
+                payload: { books: [...books].sort((a, b) => ( (a.saleInfo.retailPrice) ? a.saleInfo.retailPrice.amount : 1 ) < ( (b.saleInfo.retailPrice) ? b.saleInfo.retailPrice.amount : 1 ) ? 1 : -1) }
+            };
+        case "OLD" :
+            return {
+                type: "SET_BOOKS",
+                payload: { books: [...books].sort((a, b) =>  ( (a.volumeInfo.publishedDate > b.volumeInfo.publishedDate) ? 1 : -1 ) ) }
+            }
+        case "NEW" :
+            return {
+                type: "SET_BOOKS",
+                payload: { books: [...books].sort((a, b) =>  ( (a.volumeInfo.publishedDate < b.volumeInfo.publishedDate) ? 1 : -1 ) ) }
+            }
+        default:
+            return {
+                type: "SET_BOOKS",
+                payload: { books: books }
+            }
+    }
+}
+
 export function setBooks(books){
     return {
         type: "SET_BOOKS",
@@ -48,9 +78,3 @@ export function clearError(error){
         type: "CLEAR_ERROR"
     }
 }
-
-
-
-
-
-
