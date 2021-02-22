@@ -4,6 +4,7 @@ import './ShowBook.css';
 import { BookCover } from './BookCover/BookCover';
 import { BookModal } from './BookModal/BookModal';
 import { useSelector } from 'react-redux';
+import PropTypes from 'prop-types';
 
 export function ShowBook ( { book } ) {
     const [showModal, setShowModal] = useState(false);
@@ -40,6 +41,20 @@ export function ShowBook ( { book } ) {
     }else{
         return <></>;
     }
-
     
+}
+
+ShowBook.propTypes = {
+    book: PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        imgLink: PropTypes.string,
+        authors: PropTypes.string,
+        publishedDate: PropTypes.string,
+        description: PropTypes.string,
+        pageCount: PropTypes.number,
+        saleability: PropTypes.string,
+        price: PropTypes.number,
+        webReaderLink: PropTypes.string
+      })
 }

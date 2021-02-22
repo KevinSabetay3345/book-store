@@ -1,25 +1,31 @@
 import axios from 'axios';
 import _ from 'lodash';
 
-// fetchBooks using thunk
-export const fetchBooks = (searchCode) => (dispatch) => {
-    dispatch( isLoaded(false) );
-    dispatch( clearError() );
+export function setBooks(books){
+    return {
+        type: "SET_BOOKS",
+        payload: { books: books }
+    }
+}
 
-    const requestFreeBooks = axios.get("https://www.googleapis.com/books/v1/volumes?maxResults=20&filter=free-ebooks&q=" + searchCode);
-    const requestPaidBooks = axios.get("https://www.googleapis.com/books/v1/volumes?maxResults=20&filter=paid-ebooks&q=" + searchCode);
+export function isLoaded(loaded){
+    return {
+        type: "IS_LOADED",
+        payload: { loaded: loaded }
+    }
+}
 
-    axios.all([requestFreeBooks, requestPaidBooks]).then(axios.spread((...responses) => {
+export function fetchError(error){
+    return {
+        type: "ERROR",
+        payload: { error: error }
+    }
+}
 
-        const freeBooks = (responses[0].data.totalItems > 0) ? responses[0].data.items : [];
-        const paidBooks = (responses[1].data.totalItems > 0) ? responses[1].data.items : [];
-        dispatch( setBooks( _.shuffle( freeBooks.concat(paidBooks)) ) )
-        dispatch( isLoaded(true) );
-    
-    })).catch(errors => {
-        dispatch( fetchError(errors) );
-        dispatch( isLoaded(true) );
-    })
+export function clearError(error){
+    return {
+        type: "CLEAR_ERROR"
+    }
 }
 
 export function orderBooks(books, orderType){
@@ -52,29 +58,55 @@ export function orderBooks(books, orderType){
     }
 }
 
-export function setBooks(books){
-    return {
-        type: "SET_BOOKS",
-        payload: { books: books }
-    }
+// fetchBooks using thunk
+export const fetchBooks = (searchCode) => (dispatch) => {
+    dispatch( isLoaded(false) );
+    dispatch( clearError() );
+
+    const requestFreeBooks = axios.get("https://www.googleapis.com/books/v1/volumes?maxResults=20&filter=free-ebooks&q=" + searchCode);
+    const requestPaidBooks = axios.get("https://www.googleapis.com/books/v1/volumes?maxResults=20&filter=paid-ebooks&q=" + searchCode);
+
+    axios.all([requestFreeBooks, requestPaidBooks]).then(axios.spread((...responses) => {
+
+        const freeBooks = (responses[0].data.totalItems > 0) ? responses[0].data.items : [];
+        const paidBooks = (responses[1].data.totalItems > 0) ? responses[1].data.items : [];
+        const books = cleanBooks(freeBooks.concat(paidBooks));
+        dispatch( setBooks( _.shuffle( books ) ) )
+        dispatch( isLoaded(true) );
+    
+    })).catch(errors => {
+        dispatch( fetchError(errors) );
+        dispatch( isLoaded(true) );
+    })
 }
 
-export function isLoaded(loaded){
-    return {
-        type: "IS_LOADED",
-        payload: { loaded: loaded }
-    }
-}
 
-export function fetchError(error){
-    return {
-        type: "ERROR",
-        payload: { error: error }
-    }
-}
-
-export function clearError(error){
-    return {
-        type: "CLEAR_ERROR"
-    }
+/* Cleanbooks takes only the parameters that matter and makes them readable */
+function cleanBooks(books){
+    return books.map(book => {
+        const bookInfo = book.volumeInfo;
+        const id = book.id;
+        const imgLink = ( bookInfo.imageLinks ) ? book.volumeInfo.imageLinks.thumbnail : "";
+        const title = bookInfo.title;
+        const authors = ( bookInfo.authors ) ? book.volumeInfo.authors.join(', ') : "";
+        const publishedDate = bookInfo.publishedDate;
+        const description = bookInfo.description;
+        const pageCount = bookInfo.pageCount;
+        const saleability = book.saleInfo.saleability;
+        const price = (saleability === "FOR_SALE") ? book.saleInfo.retailPrice.amount : 0; 
+        const webReaderLink = (saleability === "FREE") ? book.accessInfo.webReaderLink : "";
+        
+        return {
+            id: id,
+            imgLink: imgLink,
+            title: title,
+            authors: authors,
+            publishedDate: publishedDate,
+            description: description,
+            pageCount: pageCount,
+            saleability: saleability,
+            price: price,
+            webReaderLink: webReaderLink
+        }
+    });   
 }

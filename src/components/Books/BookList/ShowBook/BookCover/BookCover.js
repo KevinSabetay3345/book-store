@@ -1,13 +1,9 @@
 import React, { useState } from 'react';
 import './BookCover.css';
 import { ShoppingCartOutlined, ReadOutlined } from '@ant-design/icons';
+import PropTypes from 'prop-types';
 
 export const BookCover = ( { book, showModal } ) => {
-    const bookInfo = book.volumeInfo;
-    const imgLink = ( bookInfo.imageLinks ) ? book.volumeInfo.imageLinks.thumbnail : "";
-    const title = bookInfo.title;
-    const authors = ( bookInfo.authors ) ? book.volumeInfo.authors.join(', ') : "";
-    const date = bookInfo.publishedDate;
     const [visible, setVisible] = useState(false);
 
     return (
@@ -15,9 +11,9 @@ export const BookCover = ( { book, showModal } ) => {
             
             <div className="img">
                 <img 
-                srcSet={imgLink} 
+                srcSet={book.imgLink} 
                 src="https://linnea.com.ar/wp-content/uploads/2018/09/404PosterNotFoundReverse.jpg"
-                alt={title}
+                alt={book.title}
                 onLoad={ () => setVisible(true) }
                 />
             </div>
@@ -25,16 +21,32 @@ export const BookCover = ( { book, showModal } ) => {
             { /* shows when hover, "visible" assures to show the image first */ }
             { visible &&
             <div className="img-hover-details">
-                { book.saleInfo.saleability === "FOR_SALE" && 
+                { book.saleability === "FOR_SALE" && 
                 <span className="saleability"><ShoppingCartOutlined /></span>}
-                { book.saleInfo.saleability === "FREE" && 
+                { book.saleability === "FREE" && 
                 <span className="saleability"><ReadOutlined /></span>}
                 
-                <p className="title">{ title.length > 50 ? title.substring(0, 35) + "..." : title }</p>
-                <p className="subtitle">{ authors.length > 50 ? authors.substring(0,50) + "..." : authors} {date}</p>
+                <p className="title">{ book.title.length > 50 ? book.title.substring(0, 35) + "..." : book.title }</p>
+                <p className="subtitle">{ book.authors.length > 50 ? book.authors.substring(0,50) + "..." : book.authors} {book.date}</p>
             </div>
             }
             
         </div>
     )
+}
+
+BookCover.propTypes = {
+    book: PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        imgLink: PropTypes.string,
+        authors: PropTypes.string,
+        publishedDate: PropTypes.string,
+        description: PropTypes.string,
+        pageCount: PropTypes.number,
+        saleability: PropTypes.string,
+        price: PropTypes.number,
+        webReaderLink: PropTypes.string
+      }),
+    showModal: PropTypes.func
 }
