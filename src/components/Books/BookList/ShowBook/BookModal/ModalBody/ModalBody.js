@@ -10,8 +10,9 @@ export const ModalBody = ( { book } ) => {
             
             <section className="basic-detail">
               <div className="book-img">
-                <img 
-                srcSet={book.imgLink}
+                <img
+                // changing http to https
+                srcSet={`https${book.imgLink.substring(4, book.imgLink.length)}`}
                 alt={book.title}
                 src="https://linnea.com.ar/wp-content/uploads/2018/09/404PosterNotFoundReverse.jpg"
                 />
@@ -20,8 +21,8 @@ export const ModalBody = ( { book } ) => {
               <div className="short-details">
                 <p id="title"> { book.title } </p>
                 <p id="authors"> { book.authors } </p>
-                <p id="publishedDate" style={ (typeof book.publishedDate === 'undefined') ? {display:'none'} : {} }> Fecha de publicación: { book.publishedDate } </p>
-                <p id="pageCount" style={ (typeof book.pageCount === 'undefined') ? {display:'none'} : {} }> Número de páginas: { book.pageCount } </p>
+                <p id="publishedDate" style={ (book.publishedDate === "") ? {display:'none'} : {} }> Fecha de publicación: { book.publishedDate } </p>
+                <p id="pageCount" style={ (book.pageCount === 0) ? {display:'none'} : {} }> Número de páginas: { book.pageCount } </p>
               </div>
             </section>
             

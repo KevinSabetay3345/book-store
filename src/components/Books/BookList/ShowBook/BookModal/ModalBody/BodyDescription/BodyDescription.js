@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export const BodyDescription = ( { description } ) => {
     const [seeMore, setSeeMore] = useState(true);
 
-    if (typeof description !== 'undefined') {
+    if (description !== "") {
         if (description.length > 150) {
             return (
                 <p>

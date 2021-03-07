@@ -11,8 +11,9 @@ export const BookCover = ( { book, showModal } ) => {
             
             <div className="img">
                 <img 
-                srcSet={book.imgLink} 
-                src="https://linnea.com.ar/wp-content/uploads/2018/09/404PosterNotFoundReverse.jpg"
+                // changing http to https
+                srcSet={`https${book.imgLink.substring(4, book.imgLink.length)}`} 
+                src={"https://linnea.com.ar/wp-content/uploads/2018/09/404PosterNotFoundReverse.jpg"}
                 alt={book.title}
                 onLoad={ () => setVisible(true) }
                 />
@@ -27,7 +28,7 @@ export const BookCover = ( { book, showModal } ) => {
                 <span className="saleability"><ReadOutlined /></span>}
                 
                 <p className="title">{ book.title.length > 50 ? book.title.substring(0, 35) + "..." : book.title }</p>
-                <p className="subtitle">{ book.authors.length > 50 ? book.authors.substring(0,50) + "..." : book.authors} {book.date}</p>
+                <p className="subtitle">{ book.authors.length > 50 ? book.authors.substring(0,50) + "..." : book.authors}</p>
             </div>
             }
             

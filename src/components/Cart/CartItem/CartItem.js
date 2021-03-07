@@ -13,7 +13,8 @@ export const CartItem = ( { item } ) => {
 
                 <div className="item-img">
                     <img 
-                    srcSet={item.imgLink} 
+                    // changing http to https
+                    srcSet={`https${item.imgLink.substring(4, item.imgLink.length)}`}
                     src="https://www.bodi-tek.co.uk/images/product_image_not_found_thumb.gif"
                     alt={item.title}
                     />

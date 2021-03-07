@@ -33,22 +33,22 @@ export function orderBooks(books, orderType){
         case "LOW_PRICE" :
             return {
                 type: "SET_BOOKS",
-                payload: { books: [...books].sort((a, b) => ( (a.saleInfo.retailPrice) ? a.saleInfo.retailPrice.amount : 1 ) > ( (b.saleInfo.retailPrice) ? b.saleInfo.retailPrice.amount : 1 ) ? 1 : -1) }
+                payload: { books: [...books].sort( (a, b) => a.price > b.price ? 1 : -1 ) }
             };
         case "HIGH_PRICE" :
             return {
                 type: "SET_BOOKS",
-                payload: { books: [...books].sort((a, b) => ( (a.saleInfo.retailPrice) ? a.saleInfo.retailPrice.amount : 1 ) < ( (b.saleInfo.retailPrice) ? b.saleInfo.retailPrice.amount : 1 ) ? 1 : -1) }
+                payload: { books: [...books].sort( (a, b) => a.price < b.price ? 1 : -1 ) }
             };
         case "OLD" :
             return {
                 type: "SET_BOOKS",
-                payload: { books: [...books].sort((a, b) =>  ( (a.volumeInfo.publishedDate > b.volumeInfo.publishedDate) ? 1 : -1 ) ) }
+                payload: { books: [...books].sort( (a, b) => a.publishedDate === "" ? 1 : ( a.publishedDate > b.publishedDate ? 1 : -1 ) ) }
             }
         case "NEW" :
             return {
                 type: "SET_BOOKS",
-                payload: { books: [...books].sort((a, b) =>  ( (a.volumeInfo.publishedDate < b.volumeInfo.publishedDate) ? 1 : -1 ) ) }
+                payload: { books: [...books].sort( (a, b) => a.publishedDate === "" ? 1 : ( a.publishedDate < b.publishedDate ? 1 : -1 ) ) }
             }
         default:
             return {
@@ -87,11 +87,11 @@ function cleanBooks(books){
         const bookInfo = book.volumeInfo;
         const id = book.id;
         const imgLink = ( bookInfo.imageLinks ) ? book.volumeInfo.imageLinks.thumbnail : "";
-        const title = bookInfo.title;
+        const title = ( bookInfo.title ) ? bookInfo.title : "";
         const authors = ( bookInfo.authors ) ? book.volumeInfo.authors.join(', ') : "";
-        const publishedDate = bookInfo.publishedDate;
-        const description = bookInfo.description;
-        const pageCount = bookInfo.pageCount;
+        const publishedDate = ( bookInfo.publishedDate ) ? bookInfo.publishedDate : "";
+        const description = ( bookInfo.description ) ? bookInfo.description : "";
+        const pageCount = ( bookInfo.pageCount ) ? bookInfo.pageCount : 0;
         const saleability = book.saleInfo.saleability;
         const price = (saleability === "FOR_SALE") ? book.saleInfo.retailPrice.amount : 0; 
         const webReaderLink = (saleability === "FREE") ? book.accessInfo.webReaderLink : "";
