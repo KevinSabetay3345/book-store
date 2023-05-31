@@ -1,12 +1,12 @@
 import React, {useState, useEffect, useRef} from 'react';
 import { SearchOutlined } from '@ant-design/icons';
 import './SearchBar.css';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchBooks } from '../../../actions/BookActions';
+import { fetchBooks } from '../../../slices/bookSlice';
 
 export function SearchBar() {
-  let history = useHistory();
+  let navigate = useNavigate();
   const dispatch = useDispatch();
   const [search, setSearch] = useState("");
   const isLoaded = useSelector(state => state.books.isLoaded);
@@ -26,8 +26,7 @@ export function SearchBar() {
     if (search !== ""){
       dispatch( fetchBooks(search) );
     }
-    // history push is for changing the route to show books
-    history.push('/');
+    navigate('/');
   }
 
     return (

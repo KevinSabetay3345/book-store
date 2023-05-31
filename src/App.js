@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import './App.css';
 import { BookList } from './components/Books/BookList/BookList';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import { ShowCart } from './components/Cart/ShowCart/ShowCart';
-import { fetchBooks } from './actions/BookActions';
+import { fetchBooks } from './slices/bookSlice';
 import { SearchBar } from './components/Header/SearchBar/SearchBar';
 import { CartMenu } from './components/Header/CartMenu/CartMenu';
 import { OrderBy } from './components/Books/OrderBy/OrderBy';
 
 function App() {
   const dispatch = useDispatch();
-
+  
   //Default search
   useEffect( () => {
     dispatch( fetchBooks("JavaScript") );
@@ -33,16 +33,10 @@ function App() {
             <CartMenu />
           </div>
           
-          <Switch>
-            <Route path="/cart">
-                <ShowCart />
-            </Route>
-            
-            <Route path="/">
-                <OrderBy />
-                <BookList />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/cart" element={<ShowCart />}></Route>
+            <Route path="/" element={<><OrderBy /><BookList /></>}></Route>
+          </Routes>
         </div>
       
       </div>

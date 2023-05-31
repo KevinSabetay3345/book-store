@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addItem  } from '../../../../../../actions/CartActions';
+import { addItem  } from '../../../../../../slices/cartSlice';
 import { ShoppingCartOutlined, ReadOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import './ModalFooter.css';
@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 export const ModalFooter = ( { book } ) => {
     const [ existsInCart, setExistsInCart ] = useState(false);
-    const cart = useSelector(state => state.cart);
+    const cart = useSelector(state => state.cart.items);
     const dispatch = useDispatch();
   
     useEffect(() => {

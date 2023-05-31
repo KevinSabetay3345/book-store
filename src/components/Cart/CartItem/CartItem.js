@@ -1,60 +1,58 @@
 import React from 'react';
 import './CartItem.css';
-import { changeQuantity, removeItem } from '../../../actions/CartActions';
+import { changeQuantity, removeItem } from '../../../slices/cartSlice';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 
 export const CartItem = ( { item } ) => {
+    const dispatch = useDispatch();
 
-        const dispatch = useDispatch();
+    return(
+        <div className="item-grid">
 
-        return(
-            <div className="item-grid">
-
-                <div className="item-img">
-                    <img 
-                    // changing http to https
-                    srcSet={`https${item.imgLink.substring(4, item.imgLink.length)}`}
-                    src="https://www.bodi-tek.co.uk/images/product_image_not_found_thumb.gif"
-                    alt={item.title}
-                    />
-                </div>
-
-                <div className="item-detail">
-                
-                    <div className="item-description">
-                        <p className="item-title">{ item.title }</p>
-                        <p className="item-authors">{ item.authors.length > 100 ? (item.authors.substring(0, 100) + "...") : item.authors }</p>
-                        <p className="item-price">ARS${ item.price }</p>
-                    </div>
-                </div>
-
-                <div className="item-actions">
-                    <div className="item-quantity">
-                        <p className="quantity-text">Cantidad: </p>
-                        <select className="quantity-select" value={item.quantity} onChange={ (e) => dispatch( changeQuantity(item.id, e.target.value) ) }>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
-                    </div>
-                    <div className="sum-price">
-                        <p>ARS${ (item.price*item.quantity).toFixed(2) }</p>
-                    </div>
-                    <button className={ "item-delete" } onClick={ () => dispatch( removeItem(item.id) ) }>
-                        Eliminar
-                    </button>                            
-                </div>
-
+            <div className="item-img">
+                <img 
+                // changing http to https
+                srcSet={`https${item.imgLink.substring(4, item.imgLink.length)}`}
+                src="https://www.bodi-tek.co.uk/images/product_image_not_found_thumb.gif"
+                alt={item.title}
+                />
             </div>
-        )
+
+            <div className="item-detail">
+                <div className="item-description">
+                    <p className="item-title">{ item.title }</p>
+                    <p className="item-authors">{ item.authors.length > 100 ? (item.authors.substring(0, 100) + "...") : item.authors }</p>
+                    <p className="item-price">ARS${ item.price }</p>
+                </div>
+            </div>
+
+            <div className="item-actions">
+                <div className="item-quantity">
+                    <p className="quantity-text">Cantidad: </p>
+                    <select className="quantity-select" value={item.quantity} onChange={ (e) => dispatch( changeQuantity( {id: item.id, quantity: e.target.value } ) ) }>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div className="sum-price">
+                    <p>ARS${ (item.price*item.quantity).toFixed(2) }</p>
+                </div>
+                <button className={ "item-delete" } onClick={ () => dispatch( removeItem(item.id) ) }>
+                    Eliminar
+                </button>                            
+            </div>
+
+        </div>
+    )
 }
 
 CartItem.propTypes = {

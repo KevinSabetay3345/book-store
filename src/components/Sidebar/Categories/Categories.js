@@ -6,7 +6,7 @@ This component would be better if Google Books API has a query to get the catego
 import React, { useEffect, useState, useRef } from 'react';
 import './Categories.css';
 import { Link } from 'react-router-dom';
-import { fetchBooks } from '../../../actions/BookActions';
+import { fetchBooks } from '../../../slices/bookSlice';
 import {useDispatch, useSelector} from 'react-redux';
 
 export function Categories(){
