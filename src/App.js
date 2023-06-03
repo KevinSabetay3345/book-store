@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import './App.css';
 import { BookList } from './components/Books/BookList/BookList';
@@ -36,6 +36,7 @@ function App() {
           <Routes>
             <Route path="/cart" element={<ShowCart />}></Route>
             <Route path="/" element={<><OrderBy /><BookList /></>}></Route>
+            <Route path='*' element={<Navigate to='/' />} />
           </Routes>
         </div>
       

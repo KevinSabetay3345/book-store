@@ -13,6 +13,8 @@ export const ShowCart = () => {
             const priceXquantity = (item) => (item.quantity * item.price);
             const sumPrice = (cont, item) => cont + item;
             setTotalPrice(cart.map(priceXquantity).reduce(sumPrice, 0).toFixed(2));
+        } else {
+            setTotalPrice("0.00");
         }
     }, [cart])
     
