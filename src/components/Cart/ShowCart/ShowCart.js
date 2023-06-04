@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useSelector } from 'react-redux';
 import './ShowCart.css';
 import { CartItem } from '../CartItem/CartItem';
@@ -6,17 +6,8 @@ import { CartItem } from '../CartItem/CartItem';
 
 export const ShowCart = () => {
     const cart = useSelector(state => state.cart.items);
-    const [totalPrice, setTotalPrice] = useState("0.00")
+    const totalPrice = useSelector(state => state.cart.totalPrice);
 
-    useEffect(() => {
-        if (cart.length > 0) {
-            const priceXquantity = (item) => (item.quantity * item.price);
-            const sumPrice = (cont, item) => cont + item;
-            setTotalPrice(cart.map(priceXquantity).reduce(sumPrice, 0).toFixed(2));
-        } else {
-            setTotalPrice("0.00");
-        }
-    }, [cart])
     
     return (
         <div className="all-items">

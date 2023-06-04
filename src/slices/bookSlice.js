@@ -51,7 +51,8 @@ export const fetchBooks = createAsyncThunk(
 const initialState = {
   bookList: [],
   error: [],
-  isLoaded: false
+  isLoaded: false,
+  categorySelected: ""
 }
 
 export const bookSlice = createSlice({
@@ -76,6 +77,9 @@ export const bookSlice = createSlice({
           break
       }
     },
+    selectCategory: (state, action) => {
+      state.categorySelected = action.payload
+    },
   },
   extraReducers: (builder) => {
     builder.addCase(fetchBooks.pending, (state) => {
@@ -93,7 +97,7 @@ export const bookSlice = createSlice({
   }
 })
 
-export const { orderBooks } = bookSlice.actions
+export const { orderBooks, selectCategory } = bookSlice.actions
 
 export default bookSlice.reducer
 

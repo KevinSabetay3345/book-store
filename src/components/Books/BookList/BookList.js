@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ShowBook } from './ShowBook/ShowBook';
+import { fetchBooks } from '../../../slices/bookSlice';
 import './BookList.css';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 
 export function BookList(){
     const error = useSelector(state => state.books.error);
     const isLoaded = useSelector(state => state.books.isLoaded);
     const books = useSelector(state => state.books.bookList);
+    const dispatch = useDispatch();
+  
+    //Default search
+    useEffect(() => {
+      dispatch( fetchBooks("JavaScript") );
+    }, [])
 
     if (error.message !== undefined) {
         return <div className="error">Error: {error.message}</div>;
