@@ -1,14 +1,11 @@
 .order-by {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
   margin-left: 25px;
 }
-
 .order-by select {
   padding: 5px 0 5px 5px;
   border-radius: 4px;
   color: #414856;
   outline: none;
   font-family: "Roboto", sans-serif;
-}
-/*# sourceMappingURL=OrderBy.css.map */
+}/*# sourceMappingURL=OrderBy.css.map */

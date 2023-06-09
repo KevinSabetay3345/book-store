@@ -3,10 +3,12 @@ import './CartItem.css';
 import { changeQuantity, removeItem } from '../../../slices/cartSlice';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
+import { useTranslation } from '../../../hooks/useTranslation'
 
 export const CartItem = ( { item } ) => {
     const dispatch = useDispatch();
-
+    const t = useTranslation();
+    
     return(
         <div className="item-grid">
 
@@ -29,7 +31,7 @@ export const CartItem = ( { item } ) => {
 
             <div className="item-actions">
                 <div className="item-quantity">
-                    <p className="quantity-text">Cantidad: </p>
+                    <p className="quantity-text">{t("Cantidad")}: </p>
                     <select className="quantity-select" value={item.quantity} onChange={ (e) => dispatch( changeQuantity( {id: item.id, quantity: e.target.value } ) ) }>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -47,7 +49,7 @@ export const CartItem = ( { item } ) => {
                     <p>ARS${ (item.price*item.quantity).toFixed(2) }</p>
                 </div>
                 <button className={ "item-delete" } onClick={ () => dispatch( removeItem(item.id) ) }>
-                    Eliminar
+                    {t("Eliminar")}
                 </button>                            
             </div>
 

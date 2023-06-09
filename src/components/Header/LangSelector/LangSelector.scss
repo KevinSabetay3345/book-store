@@ -1,0 +1,28 @@
+.lang-selector {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+
+  .lang-btn {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    border: 0;
+
+    .lang-svg {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+@media (max-width: 733px) {
+  .lang-selector {
+    margin-top: 30px;
+  }
+}

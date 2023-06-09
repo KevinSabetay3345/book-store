@@ -2,8 +2,10 @@ import React from 'react';
 import './ModalBody.css';
 import { BodyDescription } from './BodyDescription/BodyDescription';
 import PropTypes from 'prop-types';
+import { useTranslation } from '../../../../../../hooks/useTranslation';
 
 export const ModalBody = ( { book } ) => {
+    const t = useTranslation();
 
     return (
         <div className="book-information">
@@ -21,8 +23,8 @@ export const ModalBody = ( { book } ) => {
               <div className="short-details">
                 <p id="title"> { book.title } </p>
                 <p id="authors"> { book.authors } </p>
-                <p id="publishedDate" style={ (book.publishedDate === "") ? {display:'none'} : {} }> Fecha de publicación: { book.publishedDate } </p>
-                <p id="pageCount" style={ (book.pageCount === 0) ? {display:'none'} : {} }> Número de páginas: { book.pageCount } </p>
+                <p id="publishedDate" style={ (book.publishedDate === "") ? {display:'none'} : {} }> {t("Fecha de publicación")}: { book.publishedDate } </p>
+                <p id="pageCount" style={ (book.pageCount === 0) ? {display:'none'} : {} }> {t("Número de páginas")}: { book.pageCount } </p>
               </div>
             </section>
             

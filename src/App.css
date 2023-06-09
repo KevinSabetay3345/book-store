@@ -1,9 +1,7 @@
 .App {
   margin: 0;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(150px, 20%) 1fr;
-      grid-template-columns: minmax(150px, 20%) 1fr;
+  grid-template-columns: minmax(150px, 20%) 1fr;
   text-align: center;
 }
 
@@ -13,31 +11,6 @@
 }
 
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.main-header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
-  background: #f1f5f8;
-  padding: 25px 25px;
-}
-/*# sourceMappingURL=App.css.map */
+  flex-direction: column;
+}/*# sourceMappingURL=App.css.map */

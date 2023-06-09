@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,IAAI;CASlB;;AAXD,AAIE,SAJO,CAIP,MAAM,CAAC;EACL,OAAO,EAAE,aAAa;EACtB,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,oBAAoB;CAClC",
-    "sources": [
-        "OrderBy.scss"
-    ],
-    "names": [],
-    "file": "OrderBy.css"
-}
+{"version":3,"sources":["OrderBy.scss","OrderBy.css"],"names":[],"mappings":"AAAA;EACE,sBAAA;EACA,iBAAA;ACCF;ADCE;EACE,sBAAA;EACA,kBAAA;EACA,cAAA;EACA,aAAA;EACA,iCAAA;ACCJ","file":"OrderBy.css"}

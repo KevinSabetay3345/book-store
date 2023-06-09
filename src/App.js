@@ -1,12 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
-import { BookList } from './components/Books/BookList/BookList';
 import { Sidebar } from './components/Sidebar/Sidebar';
-import { ShowCart } from './components/Cart/ShowCart/ShowCart';
-import { SearchBar } from './components/Header/SearchBar/SearchBar';
-import { CartMenu } from './components/Header/CartMenu/CartMenu';
 import { OrderBy } from './components/Books/OrderBy/OrderBy';
+import { BookList } from './components/Books/BookList/BookList';
+import { ShowCart } from './components/Cart/ShowCart/ShowCart';
+import { Header } from './components/Header/Header';
 
 function App() {
   return (
@@ -19,10 +18,7 @@ function App() {
 
         <div className="main">
           
-          <div className="main-header"> 
-            <SearchBar />
-            <CartMenu />
-          </div>
+          <Header />
           
           <Routes>
             <Route path="/cart" element={<ShowCart />}></Route>

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,OAAO,CAAC,qGAAI;AACZ,OAAO,CAAC,uEAAI;AAEX,AAAA,WAAW,CAAC;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,kCAAkC;CAahD;;AAhBF,AAKG,WALQ,CAKR,aAAa,CAAC;EACZ,UAAU,EAAE,QAAQ;CASrB;;AAfJ,AAQK,WARM,CAKR,aAAa,CAGX,YAAY,CAAC;EACX,UAAU,EAAE,WAAW;EACvB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,OAAO;EACf,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,IAAI;CACd",
-    "sources": [
-        "BookModal.scss"
-    ],
-    "names": [],
-    "file": "BookModal.css"
-}
+{"version":3,"sources":["BookModal.scss","BookModal.css"],"names":[],"mappings":"AAAQ,6GAAA;AACA,+EAAA;AAEP;EACG,aAAA;EACA,sBAAA;EACA,+CAAA;ACAJ;ADEI;EACE,oBAAA;ACAN;ADEM;EACE,uBAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,aAAA;ACAR","file":"BookModal.css"}

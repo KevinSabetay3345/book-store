@@ -2,17 +2,18 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import './ShowCart.css';
 import { CartItem } from '../CartItem/CartItem';
+import { useTranslation } from '../../../hooks/useTranslation';
 
 
 export const ShowCart = () => {
     const cart = useSelector(state => state.cart.items);
     const totalPrice = useSelector(state => state.cart.totalPrice);
-
+    const t = useTranslation();
     
     return (
         <div className="all-items">
 
-            <p className="cart-title">Detalles del carrito</p>
+            <p className="cart-title">{t("Detalles del carrito")}</p>
             
             { /* Grid with all cart's elements */ }
            
@@ -33,14 +34,14 @@ export const ShowCart = () => {
             {/* Payment section */}
             <div className="payment-grid">
                 <div className="payment-title">
-                    TOTAL
+                    {t("TOTAL")}
                 </div>
                 <div className="payment-value">
                    ARS${ totalPrice }
                 </div>
             </div>
             <div className="payment-button">
-                <button className="payment-btn">Proceder al pago</button>
+                <button className="payment-btn">{t("Proceder al pago")}</button>
             </div>
         </div>
     )

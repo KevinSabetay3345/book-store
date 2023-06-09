@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,WAAW;EACvB,eAAe,EAAE,SAAS;EAC1B,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,OAAO;CAChB",
-    "sources": [
-        "BodyDescription.scss"
-    ],
-    "names": [],
-    "file": "BodyDescription.css"
-}
+{"version":3,"sources":["BodyDescription.scss","BodyDescription.css"],"names":[],"mappings":"AAAA;EACE,YAAA;EACA,WAAA;EACA,uBAAA;EACA,0BAAA;EACA,aAAA;EACA,eAAA;ACCF","file":"BodyDescription.css"}

@@ -7,11 +7,13 @@ import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 import bookReducer from './slices/bookSlice'
 import cartReducer from './slices/cartSlice'
+import langReducer from './slices/langSlice'
 
 export const store = configureStore({
   reducer: {
     books: bookReducer,
     cart: cartReducer,
+    langs: langReducer,
   },
 })
 

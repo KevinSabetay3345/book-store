@@ -3,12 +3,14 @@ import { ShowBook } from './ShowBook/ShowBook';
 import { fetchBooks } from '../../../slices/bookSlice';
 import './BookList.css';
 import { useSelector, useDispatch } from 'react-redux';
+import { useTranslation } from '../../../hooks/useTranslation';
 
 export function BookList(){
     const error = useSelector(state => state.books.error);
     const isLoaded = useSelector(state => state.books.isLoaded);
     const books = useSelector(state => state.books.bookList);
     const dispatch = useDispatch();
+    const t = useTranslation()
   
     //Default search
     useEffect(() => {
@@ -31,7 +33,7 @@ export function BookList(){
         }
         return (
             <div className="error">
-                No se encontraron libros. Ingrese otro término de busqueda.
+                {t("No se encontraron libros. Ingrese otro término de busqueda.")}
             </div>
         );
     }
