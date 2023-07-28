@@ -1,13 +1,22 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import { OrderBy } from './components/Books/OrderBy/OrderBy';
 import { BookList } from './components/Books/BookList/BookList';
 import { ShowCart } from './components/Cart/ShowCart/ShowCart';
 import { Header } from './components/Header/Header';
+import { useDispatch } from 'react-redux';
+import { fetchBooks } from './slices/bookSlice';
 
 function App() {
+  const dispatch = useDispatch();
+
+  //Initial fetch
+  useEffect(() => {
+    dispatch( fetchBooks("JavaScript") );
+  }, [])
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -21,9 +30,9 @@ function App() {
           <Header />
           
           <Routes>
-            <Route path="/cart" element={<ShowCart />}></Route>
-            <Route path="/" element={<><OrderBy /><BookList /></>}></Route>
-            <Route path='*' element={<Navigate to='/' />} />
+            <Route path="/cart" element={<ShowCart />} />
+            <Route path="/:search" element={<><OrderBy /><BookList /></>} />
+            <Route path="/" element={<><OrderBy /><BookList /></>} />
           </Routes>
         </div>
       

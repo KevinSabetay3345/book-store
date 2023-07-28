@@ -7,7 +7,7 @@ import { fetchBooks } from '../../../slices/bookSlice';
 import { useTranslation } from '../../../hooks/useTranslation';
 
 export function SearchBar() {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const [search, setSearch] = useState("");
   const t = useTranslation();
@@ -16,14 +16,14 @@ export function SearchBar() {
     e.preventDefault();
     if (search !== ""){
       dispatch( fetchBooks(search) );
-      navigate('/');
+      navigate('/'+search);
     }
   }
 
     return (
         <form className="App-search" onSubmit={handleSubmit}>
-            <SearchOutlined className="search-icon" />
-            <input 
+            <SearchOutlined className="search-icon" onClick={handleSubmit} />
+            <input
                 value={search}
                 type="text" 
                 className="search-input" 

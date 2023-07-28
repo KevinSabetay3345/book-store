@@ -2,12 +2,12 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import axios from 'axios';
 import _ from 'lodash';
 
-/* Cleanbooks takes only the parameters that matter and makes them readable */
+/* Cleanbooks takes only parameters to be used */
 function cleanBooks(books){
   return books.map(book => {
       const bookInfo = book.volumeInfo;
       const id = book.id;
-      const imgLink = ( bookInfo.imageLinks ) ? book.volumeInfo.imageLinks.thumbnail : "";
+      const imgLink = ( bookInfo.imageLinks ) ? bookInfo.imageLinks.smallThumbnail : "";
       const title = ( bookInfo.title ) ? bookInfo.title : "";
       const authors = ( bookInfo.authors ) ? book.volumeInfo.authors.join(', ') : "";
       const publishedDate = ( bookInfo.publishedDate ) ? bookInfo.publishedDate : "";
@@ -51,8 +51,7 @@ export const fetchBooks = createAsyncThunk(
 const initialState = {
   bookList: [],
   error: [],
-  isLoaded: false,
-  categorySelected: ""
+  isLoaded: false
 }
 
 export const bookSlice = createSlice({
@@ -76,10 +75,7 @@ export const bookSlice = createSlice({
         default:
           break
       }
-    },
-    selectCategory: (state, action) => {
-      state.categorySelected = action.payload
-    },
+    }
   },
   extraReducers: (builder) => {
     builder.addCase(fetchBooks.pending, (state) => {
@@ -97,7 +93,7 @@ export const bookSlice = createSlice({
   }
 })
 
-export const { orderBooks, selectCategory } = bookSlice.actions
+export const { orderBooks } = bookSlice.actions
 
 export default bookSlice.reducer
 

@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-.link {
-  width: 100%;
-}
-
 .categories-list {
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   display: flex;
@@ -25,9 +22,5 @@
   cursor: pointer;
 }
 .categories-list .btn:hover {
-  background: #11cbbe;
-}
-.categories-list .selected {
-  width: 103%;
   background: #11cbbe;
 }/*# sourceMappingURL=Categories.css.map */

@@ -4,18 +4,20 @@ import { fetchBooks } from '../../../slices/bookSlice';
 import './BookList.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { useTranslation } from '../../../hooks/useTranslation';
+import { useParams } from 'react-router-dom';
 
 export function BookList(){
     const error = useSelector(state => state.books.error);
     const isLoaded = useSelector(state => state.books.isLoaded);
     const books = useSelector(state => state.books.bookList);
     const dispatch = useDispatch();
-    const t = useTranslation()
+    const param = useParams();
+    const t = useTranslation();
   
     //Default search
     useEffect(() => {
-      dispatch( fetchBooks("JavaScript") );
-    }, [])
+        if (param.search) dispatch( fetchBooks(param.search) )
+    }, [param])
 
     if (error.message !== undefined) {
         return <div className="error">Error: {error.message}</div>;
