@@ -11,7 +11,7 @@ export function LangSelector() {
     return (
         <div className="lang-selector">
           {getFlags(selectedLang).map((lang) => (
-              <button key={lang.value} className="lang-btn" onClick={ (e) => dispatch( changeLang(lang.value) ) }>
+              <button key={lang.value} aria-label={lang.value} className="lang-btn" onClick={ (e) => dispatch( changeLang(lang.value) ) }>
                 {lang.img}
               </button>
           ))}

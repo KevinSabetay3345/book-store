@@ -5,9 +5,7 @@
 }
 
 a,
-a:hover,
-a:focus,
-a:active {
+a:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -49,7 +47,6 @@ a:active {
   transform: scaleX(0);
 }
 
-.app-cart:hover::before,
-.app-cart:focus::before {
+.app-cart:hover::before {
   transform: scaleX(1);
 }/*# sourceMappingURL=CartMenu.css.map */
