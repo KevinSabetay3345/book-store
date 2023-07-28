@@ -4,4 +4,4 @@ Tienda de libros. Utilizo la API de Google Books para obtenerlos. En caso de ser
 
 This is a book-store demo made from scratch. I'm contacting Google Books API to get the books. Free books are available to read and paid books can be added to a shopping cart. The webpage has a responsive design.
 
-[View Demo](https://kevinsabetay3345.github.io/)
+[View Demo](https://musical-centaur-7a9c19.netlify.app/)
