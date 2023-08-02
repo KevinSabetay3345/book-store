@@ -8,6 +8,9 @@ import { Provider } from 'react-redux'
 import bookReducer from './slices/bookSlice'
 import cartReducer from './slices/cartSlice'
 import langReducer from './slices/langSlice'
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-B0C01XQ4C7");
 
 export const store = configureStore({
   reducer: {
@@ -26,7 +29,14 @@ root.render(
   </React.StrictMode>
 );
 
+const SendAnalytics = ()=> {
+  ReactGA.send({
+    hitType: "pageview",
+    page: window.location.pathname,
+  });
+}
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(SendAnalytics);
