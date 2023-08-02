@@ -7,7 +7,7 @@ function cleanBooks(books){
   return books.map(book => {
       const bookInfo = book.volumeInfo;
       const id = book.id;
-      const imgLink = ( bookInfo.imageLinks ) ? bookInfo.imageLinks.smallThumbnail : "";
+      const imgLink = ( bookInfo.imageLinks ) ? `https${bookInfo.imageLinks.smallThumbnail.substring(4)}` : "";
       const title = ( bookInfo.title ) ? bookInfo.title : "";
       const authors = ( bookInfo.authors ) ? book.volumeInfo.authors.join(', ') : "";
       const publishedDate = ( bookInfo.publishedDate ) ? bookInfo.publishedDate : "";
@@ -18,16 +18,16 @@ function cleanBooks(books){
       const webReaderLink = (saleability === "FREE") ? book.accessInfo.webReaderLink : "";
       
       return {
-          id: id,
-          imgLink: imgLink,
-          title: title,
-          authors: authors,
-          publishedDate: publishedDate,
-          description: description,
-          pageCount: pageCount,
-          saleability: saleability,
-          price: price,
-          webReaderLink: webReaderLink
+          id,
+          imgLink,
+          title,
+          authors,
+          publishedDate,
+          description,
+          pageCount,
+          saleability,
+          price,
+          webReaderLink
       }
   });   
 }

@@ -20,23 +20,23 @@ export function BookList(){
     }, [param])
 
     if (error.message !== undefined) {
-        return <div className="error">Error: {error.message}</div>;
+        return <main className="error">Error: {error.message}</main>;
     } else if (!isLoaded) {
-        return <div className="loader"></div>;
+        return <main className="loader"></main>;
     } else {
         if (books.length > 0){
             return (
-            <div className="grid-books">
+            <main className="grid-books">
                 {books.map(book => (
                     <ShowBook book={book} key={book.id} />
                 ))}
-            </div>
+            </main>
             );
         }
         return (
-            <div className="error">
+            <main className="error">
                 {t("No se encontraron libros. Ingrese otro término de busqueda.")}
-            </div>
+            </main>
         );
     }
 

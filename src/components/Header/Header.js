@@ -6,10 +6,10 @@ import { LangSelector } from './LangSelector/LangSelector';
 
 export function Header() {
     return (
-      <div className="main-header"> 
+      <header className="main-header"> 
         <SearchBar />
         <CartMenu />
         <LangSelector />
-      </div>
+      </header>
     )
 }

@@ -14,7 +14,7 @@ export const ModalBody = ( { book } ) => {
               <div className="book-img">
                 <img
                 // changing http to https
-                srcSet={`https${book.imgLink.substring(4, book.imgLink.length)}`}
+                srcSet={book.imgLink}
                 alt={book.title}
                 src="https://linnea.com.ar/wp-content/uploads/2018/09/404PosterNotFoundReverse.jpg"
                 />
