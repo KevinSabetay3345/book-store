@@ -3,13 +3,17 @@ import { useSelector } from 'react-redux';
 import './ShowCart.css';
 import { CartItem } from '../CartItem/CartItem';
 import { useTranslation } from '../../../hooks/useTranslation';
-
+import ReactGA from 'react-ga4';
 
 export const ShowCart = () => {
     const cart = useSelector(state => state.cart.items);
     const totalPrice = useSelector(state => state.cart.totalPrice);
     const t = useTranslation();
     
+    function checkout() {
+        ReactGA.event("begin_checkout")
+    }
+
     return (
         <div className="all-items">
 
@@ -41,7 +45,7 @@ export const ShowCart = () => {
                 </div>
             </div>
             <div className="payment-button">
-                <button className="payment-btn">{t("Proceder al pago")}</button>
+                <button className="payment-btn" onClick={checkout}>{t("Proceder al pago")}</button>
             </div>
         </div>
     )

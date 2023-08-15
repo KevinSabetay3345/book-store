@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import './ModalFooter.css';
 import PropTypes from 'prop-types';
 import { useTranslation } from '../../../../../../hooks/useTranslation';
-
+import ReactGA from 'react-ga4';
 
 export const ModalFooter = ( { book } ) => {
     const [ existsInCart, setExistsInCart ] = useState(false);
@@ -18,6 +18,14 @@ export const ModalFooter = ( { book } ) => {
       const exists = cart.filter(cartItem => cartItem.id === book.id).length  > 0;
       setExistsInCart(exists);
     }, [cart, book]);
+
+    function addItemToCart(book) {
+      dispatch( addItem(book) )
+      ReactGA.event("add_to_cart", {
+        title: book.title,
+        price: book.price
+      })
+    }
     
     if (book.saleability === "FOR_SALE") {
       return (
@@ -29,7 +37,7 @@ export const ModalFooter = ( { book } ) => {
             
               <button 
                 className={ existsInCart ? "action-btn fade-out" : "action-btn" } 
-                onClick={ () => dispatch( addItem(book) ) }
+                onClick={ () => addItemToCart(book) }
                 disabled={ existsInCart ? "disabled" : "" }
               >
                 <p> AR${ book.price }</p> <span className="icon"><ShoppingCartOutlined/></span>

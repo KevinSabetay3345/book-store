@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { fetchBooks } from '../../../slices/bookSlice';
 import { useTranslation } from '../../../hooks/useTranslation';
+import ReactGA from 'react-ga4';
 
 export function SearchBar() {
   const navigate = useNavigate();
@@ -17,6 +18,7 @@ export function SearchBar() {
     if (search !== ""){
       dispatch( fetchBooks(search) );
       navigate('/'+search);
+      ReactGA.event("search", { search_term: search });
     }
   }
 

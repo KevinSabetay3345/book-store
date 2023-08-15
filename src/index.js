@@ -32,7 +32,7 @@ root.render(
 const SendAnalytics = ()=> {
   ReactGA.send({
     hitType: "pageview",
-    page: window.location.pathname,
+    page: window.location.pathname + window.location.search,
   });
 }
 
