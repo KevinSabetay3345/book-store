@@ -17,9 +17,11 @@ export const ModalFooter = ( { book } ) => {
     useEffect(() => {
       const exists = cart.filter(cartItem => cartItem.id === book.id).length  > 0;
       setExistsInCart(exists);
-    }, [cart, book]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [book]);
 
     function addItemToCart(book) {
+      setExistsInCart(true)
       dispatch( addItem(book) )
       ReactGA.event("add_to_cart", {
         title: book.title,
@@ -30,12 +32,13 @@ export const ModalFooter = ( { book } ) => {
     if (book.saleability === "FOR_SALE") {
       return (
           <div className="footer-content">
-            { existsInCart && <Link to="/cart" className="go-to-cart"><ShoppingCartOutlined/></Link> }
+            { existsInCart && <Link to="/cart" className="go-to-cart" data-test="go-to-cart"><ShoppingCartOutlined/></Link> }
             
             <div className="action-btn-container">
               { existsInCart && <div className="show-success">{t("Libro añadido al carrito")}</div> }
             
-              <button 
+              <button
+                data-test="add-to-cart"
                 className={ existsInCart ? "action-btn fade-out" : "action-btn" } 
                 onClick={ () => addItemToCart(book) }
                 disabled={ existsInCart ? "disabled" : "" }
@@ -50,7 +53,9 @@ export const ModalFooter = ( { book } ) => {
       return (
         <div className="footer-content">
             <button className="action-btn">
-              <a href= { book.webReaderLink } target="_blank" rel="noopener noreferrer">{t("Leer online")} </a>
+              <a href={ book.webReaderLink } target="_blank" rel="noopener noreferrer" data-test="open-free-book">
+                {t("Leer online")}
+              </a>
               <span className="icon" id="read-icon"><ReadOutlined /></span>
             </button>
         </div>

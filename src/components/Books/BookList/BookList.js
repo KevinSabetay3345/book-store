@@ -17,6 +17,7 @@ export function BookList(){
     //Default search
     useEffect(() => {
         if (param.search) dispatch( fetchBooks(param.search) )
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [param])
 
     if (error.message !== undefined) {

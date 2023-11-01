@@ -16,7 +16,7 @@ export const BookCover = ( { book, showModal } ) => {
     }
 
     return (
-        <div className="book-cover" onClick={openModal}>
+        <div data-test="book-cover" className="book-cover" onClick={openModal}>
             
             <div className="img">
                 <img 
@@ -36,8 +36,8 @@ export const BookCover = ( { book, showModal } ) => {
                 { book.saleability === "FREE" && 
                 <span className="saleability"><ReadOutlined /></span>}
                 
-                <p className="title">{ book.title.length > 50 ? book.title.substring(0, 35) + "..." : book.title }</p>
-                <p className="subtitle">{ book.authors.length > 50 ? book.authors.substring(0,50) + "..." : book.authors}</p>
+                <p className="title">{ book.title.length > 35 ? book.title.substring(0, 35) + "..." : book.title }</p>
+                <p className="subtitle">{ book.authors.length > 40 ? book.authors.substring(0,40) + "..." : book.authors}</p>
             </div>
             }
             

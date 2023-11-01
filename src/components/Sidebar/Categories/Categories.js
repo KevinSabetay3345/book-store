@@ -79,7 +79,15 @@ export function Categories(){
     return (
         <div className="categories-list">
             { categories.map(category => (
-                <button key={category.value} className="btn" onClick={ handleClick } value={category.value}>{ category.label }</button>
+                <button
+                    data-test="categories"
+                    className="btn"
+                    key={category.value}
+                    value={category.value}
+                    onClick={ handleClick }
+                >
+                    { category.label }
+                </button>
             ))}
         </div>
     )

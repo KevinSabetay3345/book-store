@@ -1,0 +1,1892 @@
+{
+    "totalItems": 95,
+    "items":
+    [
+        {
+            "kind": "books#volume",
+            "id": "SqikDwAAQBAJ",
+            "etag": "DaG6yrFwTWg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/SqikDwAAQBAJ",
+            "volumeInfo": {
+                "title": "JavaScript - Aprende a programar en el lenguaje de la web",
+                "authors": [
+                    "Fernando Luna"
+                ],
+                "publisher": "RedUsers",
+                "publishedDate": "2019-07-23",
+                "description": "JavaScript es el lenguaje de programación más utilizado hoy. Junto a HTML y CSS, le da vida a la gran mayoría de los sitios Web que visitamos. Pero JavaScript ya no es exclusivo de la Web: proyectos como NodeJS, Electron y React Native lo llevaron al ámbito de los servidores, los programas de escritorio y las aplicaciones móviles. Además, cada día surgen nuevos frameworks (como los líderes y archienemigos React y Angular) para expandir las posibilidades de JavaScript. Esta guía introductoria, nos llevará en un viaje vertiginoso desde el primer \"Hola Mundo\" hasta aplicaciones que nos hablan y acceden a bases de datos. Obviamente, este no pretende ser un curso comprehensivo, sino un punto de partida para que el lector comience a programar en este excitante lenguaje.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9789874958082"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "9874958081"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 144,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=SqikDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=SqikDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=SqikDwAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=SqikDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SqikDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 2205.42,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 2205.42,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=SqikDwAAQBAJ&rdid=book-SqikDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2205420000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2205420000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/JavaScript_Aprende_a_programar_en_el_len-sample-pdf.acsm?id=SqikDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=SqikDwAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "JavaScript es el lenguaje de programación más utilizado hoy."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "B8rKDwAAQBAJ",
+            "etag": "QEwU56YaoFM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/B8rKDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Proyectos con Javascript",
+                "subtitle": "Ponga en práctica el lenguaje del momento",
+                "authors": [
+                    "Jorge Stasi"
+                ],
+                "publisher": "RedUsers",
+                "publishedDate": "2020-01-17",
+                "description": "En este e-book abordaremos JS estratégicamente para no necesitar librerías externas y resolver distintas problemáticas solo con lo que el lenguaje nos ofrece. Iremos avanzando de a poco, y a lo largo de cinco capítulos veremos cómo trabajar con variables y arrays, interactuar con el DOM y modificarlo dinámicamente y manejar una base de datos de manera local. En el primer capítulo, realizaremos una validación de formulario para controlar el contenido correcto antes de enviarlo. Veremos el uso de las sentencias if, switch y for, como así también el modo de comenzar a interactuar con el DOM. En el segundo capítulo, diseñaremos una calculadora para resolver las operaciones básicas, donde profundizaremos la interacción con el DOM y analizaremos el uso de funciones de texto y matemáticas incluidas en JS. En el tercer capítulo, diseñaremos el famoso juego “tres en línea”, con el cual aprenderemos, en particular, sobre el objeto document. En el cuarto capítulo abordaremos una base de datos implementada de manera local por los navegadores conocida como indexedDB. Para esto diseñaremos un proyecto con el cual podremos registrar, editar y borrar vehículos. En el quinto capítulo crearemos un pequeño editor de fotos, con el que podremos capturar una desde nuestro móvil y aplicarle distintos filtros. Básicamente, nos centraremos en el correcto uso de arrays, entre otros temas.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9789874958259"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "9874958251"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 100,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=B8rKDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=B8rKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=B8rKDwAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=B8rKDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=B8rKDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 1750.33,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 1750.33,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=B8rKDwAAQBAJ&rdid=book-B8rKDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 1750330000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 1750330000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Proyectos_con_Javascript-sample-pdf.acsm?id=B8rKDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=B8rKDwAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "En este e-book abordaremos JS estratégicamente para no necesitar librerías externas y resolver distintas problemáticas solo con lo que el lenguaje nos ofrece."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "4EtOEAAAQBAJ",
+            "etag": "Y2O06gwE2po",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/4EtOEAAAQBAJ",
+            "volumeInfo": {
+                "title": "JavaScript: Guía completa",
+                "authors": [
+                    "Alessandra Salvaggio",
+                    "Gualtiero Testa"
+                ],
+                "publisher": "Marcombo",
+                "publishedDate": "2019-07-14",
+                "description": "Si quieres crear codigo compatible con la mayor parte de los navegadores existentes, JavaScript es el lenguaje de programacion web que necesitas. Este libro se centra en la aplicacion de JavaScript en el ambito web y se basa en ECMAScript 6, la version de JavaScript mas utilizada en la actualidad. Gracias a las prestaciones mejoradas de los PC, la ejecucion de JavaScript es cada vez mas rapida, cosa que ha permitido ampliar su entorno de uso. Entre los temas tratados: Trabajar con cadenas de texto, bucles, funciones, formularios y eventos Expresiones regulares, objetos, arrays asociativos, modo estricto Funciones avanzadas, JSON, AJAX y REST Objetos avanzados, DOM y BOM Lienzo, geolocalización Web worker, arrastre, Visual Studio Code Ademas, en la parte inferior de la primera pagina del libro encontraras el codigo de acceso que te permitira descargar de forma gratuita los contenidos adicionales del ebook en www.marcombo.info.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788426727701"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8426727700"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 251,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=4EtOEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=4EtOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=4EtOEAAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=4EtOEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4EtOEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 1469.99,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 1469.99,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=4EtOEAAAQBAJ&rdid=book-4EtOEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 1469990000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 1469990000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/JavaScript_Gu%C3%ADa_completa-sample-epub.acsm?id=4EtOEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/JavaScript_Gu%C3%ADa_completa-sample-pdf.acsm?id=4EtOEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=4EtOEAAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Si quieres crear codigo compatible con la mayor parte de los navegadores existentes, JavaScript es el lenguaje de programacion web que necesitas."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "-4zGCQAAQBAJ",
+            "etag": "h0NTgsuLSNI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/-4zGCQAAQBAJ",
+            "volumeInfo": {
+                "title": "JavaScript Una Guía de Aprendizaje para el Lenguaje de Programación JavaScript",
+                "authors": [
+                    "Troy Dimes"
+                ],
+                "publisher": "Babelcube Inc.",
+                "publishedDate": "2015-06-01",
+                "description": "JavaScript es un lenguaje de programación de computadoras dinámico utilizado habitualmente en navegadores web para controlar el comportamiento de páginas web e interactuar con los usuarios. Permite comunicación asincrónica y puede actualizar partes de una página web o incluso reemplazar completamente su contenido. Verás que JavaScript es utilizado para mostrar información de fecha y hora, ejecutar animaciones en un sitio web, validar formularios, sugerir resultados mientras el usuario escribe en un cuadro de búsqueda y más. JavaScript está siendo usado cada vez más... A pesar de que JavaScript es, por mucho, el lenguaje de programación de cliente más popular actualmente en uso, puede ser usado –y, de hecho, lo es– también en el servidor. Node.js, Meteor, Wakanda, CouchDB y MongoDB son sólo unos pocos ejemplos de lugares donde encontrarás y serás capaz de usar JavaScript en el servidor. El tiempo que inviertas en aprender JavaScript puede ser doblemente rendidor, ya que JavaScript sigue expandiéndose por cada vez más áreas de la computación. Aprende los fundamentos del lenguaje de programación JavaScript Ya sea que planees usar JavaScript en el lado del cliente en un navegador web, en el lado del servidor, o ambos, necesitas aprender los fundamentos del lenguaje. Esto es lo que te proporcionará este libro. Cuando termines de leerlo, te sentirás cómodo y confiado programando en Lenguaje JavaScript. Estas son algunas cosas que aprenderás cuando leas este libro: Dónde puede usarse JavaScript Cómo configurar tu computadora para programar en JavaScript cómoda y fácilmente Qué herramientas debes tener cuando programes en JavaScript Los fundamentos del HTML... Qué son las variables y cómo usarlas Cómo manejar números y realizar operaciones matemáticas Cómo y cuándo usar condicionales Qué funciones hay, por qué son tan útiles y",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781507111178"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1507111177"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 27,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=-4zGCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=-4zGCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=-4zGCQAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=-4zGCQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-4zGCQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 1046.7,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 1046.7,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=-4zGCQAAQBAJ&rdid=book--4zGCQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 1046700000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 1046700000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=-4zGCQAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "JavaScript es un lenguaje de programación de computadoras dinámico utilizado habitualmente en navegadores web para controlar el comportamiento de páginas web e interactuar con los usuarios."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "kI-fDwAAQBAJ",
+            "etag": "OOL4WRhDsbM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/kI-fDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Domine JavaScript. 3ª Edición",
+                "authors": [
+                    "José López Quijado"
+                ],
+                "publisher": "Grupo Editorial RA-MA",
+                "description": "En sus manos tiene un trabajo muy elaborado y con una larga trayectoria editorial, sobre lo que necesita conocer acerca de JavaScript. La presente obra está, como todos mis textos didácticos, está orientada con un enfoque eminentemente práctico. Se ha evitado, en la medida de lo posible, las disquisiciones académicas, que pueden ser muy interesantes en altos círculos universitarios pero que, en la práctica, solo sirven para que los árboles no nos dejen ver el bosque. Este libro está orientado al lector que desea aprender a usar JavaScript, y a sacarle partido para crear sus propios documentos web, sabiendo lo qué hace, cómo lo hace y por qué lo hace. Si usted no conoce JavaScript, y desea aprender desde lo más básico, encontrará el texto muy cómodo, coloquial y amigable, sin dejar de ser exhaustivo y riguroso. Si ya conoce algo de JavaScript y desea ir más allá, podrá echar un vistazo rápido a los primeros capítulos, y en seguida alcanzará unos niveles de programación propios de un webmaster experimentado. Esta edición contiene, por primera vez, tres capítulos inéditos acerca de uno de los recursos más útiles de JavaScript hoy en día: AJAX. Huyendo de rellenar cientos de páginas que no aportan gran cosa he compilado en estos tres capítulos lo necesario para usar AJAX con todo el rendimiento. En este texto he tenido en cuenta las sugerencias y comentarios de los lectores de anteriores ediciones, así como los puntos de vista de más de dos mil alumnos en las distintas clases impartidas sobre programación para Internet. Tanto la Editorial como yo mismo, hemos hecho un esfuerzo para ofrecerle un libro que, sin duda, satisfará sus necesidades de aprendizaje de JavaScript. Es nuestro deseo que usted disfrute tanto leyéndolo como nosotros hemos disfrutado preparándolo. Si es así, me daré por satisfecho. Desde www.ra-ma.es podrá descargarse los códigos de ejemplo de todos los capítulos del libro, para que usted pueda empezar a experimentar con ellos inmediatamente, logrando un progreso rápido y cómodo en su aprendizaje.",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "PKEY:GREDRA99"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 706,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.4.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=kI-fDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=kI-fDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=kI-fDwAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=kI-fDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=kI-fDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7697.96,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 7697.96,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=kI-fDwAAQBAJ&rdid=book-kI-fDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7697960000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7697960000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Domine_JavaScript_3%C2%AA_Edici%C3%B3n-sample-pdf.acsm?id=kI-fDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=kI-fDwAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "En sus manos tiene un trabajo muy elaborado y con una larga trayectoria editorial, sobre lo que necesita conocer acerca de JavaScript."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "_cy4EAAAQBAJ",
+            "etag": "eNxdbRpLFw0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/_cy4EAAAQBAJ",
+            "volumeInfo": {
+                "title": "Programación Paginas Web JavaScript y PHP",
+                "authors": [
+                    "Mª de las Mercedes Escarcena Pérez"
+                ],
+                "publisher": "Ra-Ma Editorial",
+                "publishedDate": "2021-02-11",
+                "description": "El objetivo de este libro es capacitar al lector para diseñar una página web de e-commerce con JAVASCRIPT Y PHP. Utilizando un lenguaje sencillo y didáctico se desarrollan los contenidos necesarios para la creación de una web, tanto la parte de cliente como la parte de servidor, incluyendo todas las opciones para entender la complejidad y la interrelación entre ellos. Los contenidos teóricos que se desarrollan en el libro están acompañados de proyectos prácticos para que el lector pueda asimilar con facilidad los conceptos tratados.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788418551321"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8418551321"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 95,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=_cy4EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=_cy4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=_cy4EAAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=_cy4EAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_cy4EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3544.14,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 3544.14,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=_cy4EAAAQBAJ&rdid=book-_cy4EAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3544140000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3544140000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Programaci%C3%B3n_Paginas_Web_JavaScript_y_P-sample-epub.acsm?id=_cy4EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Programaci%C3%B3n_Paginas_Web_JavaScript_y_P-sample-pdf.acsm?id=_cy4EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=_cy4EAAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "El objetivo de este libro es capacitar al lector para diseñar una página web de e-commerce con JAVASCRIPT Y PHP."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "1c-4EAAAQBAJ",
+            "etag": "rx7mjaq+RJs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/1c-4EAAAQBAJ",
+            "volumeInfo": {
+                "title": "Domine JavaScript 4ª Edición",
+                "authors": [
+                    "Pablo Enrique Fernández Casado"
+                ],
+                "publisher": "Ra-Ma Editorial",
+                "publishedDate": "2020-02-13",
+                "description": "Aunque JavaScript es un lenguaje capaz de manejar cosas tan increíbles como la geolocalización o de ejecutar subprogramas en segundo plano, casi, sin gastar recursos del sistema, para muchos, es el gran desconocido. Este libro va dirigido a todas aquellas personas, con o sin nivel, que quieren saber más sobre el mundo de la programación orientada a eventos o quieren iniciarse en el mundo de HTML5. Empezando desde un nivel cero, se van explicando de manera sencilla y concisa, todas y cada una de las características de JavaScript, desde los tipos de datos hasta las diferentes API de HTML5 y su posible integración con CSS. Después de la exposición teórica del lenguaje, se exponen veinticuatro ejemplos que pueden ser descargados a través de un repositorio de GitHub, los cuales están pensados desde un punto de vista didáctico para que, el alumno o lector, ponga en práctica varios de los aspectos más relevantes e importantes que ofrece JavaScript como son los Web Components, los elementos nativos o la API Canvas. Cuando se termine este libro se habrán adquirido los conocimientos necesarios para poder enfrentarse a cualquier desafío que JavaScript le pueda plantear y se le presentará una biblioteca de componentes de rápida instalación e integración sin derechos de uso dedicada, sobre todo, a los desarrolladores que desean seguir instruyéndose.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788499649016"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8499649017"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 319,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=1c-4EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=1c-4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=1c-4EAAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=1c-4EAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1c-4EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5672.1,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 5672.1,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=1c-4EAAAQBAJ&rdid=book-1c-4EAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5672100000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5672100000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Domine_JavaScript_4%C2%AA_Edici%C3%B3n-sample-epub.acsm?id=1c-4EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Domine_JavaScript_4%C2%AA_Edici%C3%B3n-sample-pdf.acsm?id=1c-4EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=1c-4EAAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Aunque JavaScript es un lenguaje capaz de manejar cosas tan increíbles como la geolocalización o de ejecutar subprogramas en segundo plano, casi, sin gastar recursos del sistema, para muchos, es el gran desconocido."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "B47tCgAAQBAJ",
+            "etag": "DgCNCwsglBQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/B47tCgAAQBAJ",
+            "volumeInfo": {
+                "title": "La Guia Básica de JavaScript",
+                "subtitle": "",
+                "authors": [
+                    "Miguel A. Arias"
+                ],
+                "publisher": "IT Campus Academy",
+                "publishedDate": "2013-08-29",
+                "description": "JavaScript es un lenguaje de programación interpretado, que define como orientado a objetos,3 basado en prototipos, imperativo, débilmente tipado y dinámico. Se utiliza principalmente en su forma del lado del cliente (client-side), implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas aunque existe una forma de JavaScript del lado del servidor (Server-side JavaScript o SSJS). Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo. JavaScript se diseñó con una sintaxis similar al C, aunque adopta nombres y convenciones del lenguaje de programación Java. Sin embargo Java y JavaScript no están relacionados y tienen semánticas y propósitos diferentes. Todos los navegadores modernos interpretan el código JavaScript integrado en las páginas web. Para interactuar con una página web se provee al lenguaje JavaScript de una implementación del Document Object Model (DOM). Tradicionalmente se venía utilizando en páginas web HTML para realizar operaciones y únicamente en el marco de la aplicación cliente, sin acceso a funciones del servidor. JavaScript se interpreta en el agente de usuario, al mismo tiempo que las sentencias van descargándose junto con el código HTML. Este libro está pensado para que pueda ser desarrollado por una persona que no conoce lenguajes de programación, es decir, como primer lenguaje. El objetivo de este libro es poder aprender JavaScript en forma sencilla viendo un concepto teórico, con un poco de código para ver lo ejemplos.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781492278009"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1492278009"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 78,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "averageRating": 3,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=B47tCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=B47tCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=B47tCgAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=B47tCgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=B47tCgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 2199.47,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 2199.47,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=B47tCgAAQBAJ&rdid=book-B47tCgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2199470000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2199470000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=B47tCgAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "JavaScript es un lenguaje de programación interpretado, que define como orientado a objetos,3 basado en prototipos, imperativo, débilmente tipado y dinámico."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "DADnDQAAQBAJ",
+            "etag": "E0zKGcCUNdg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/DADnDQAAQBAJ",
+            "volumeInfo": {
+                "title": "La programación JavaScript",
+                "authors": [
+                    "Preston Prescott"
+                ],
+                "publisher": "Babelcube Inc.",
+                "publishedDate": "2017-02-01",
+                "description": "¿Estás cansado de intentar aprender a programar? ¿Estás listo para conseguirlo? Si ya has intentado aprender a programar, pero no has tenido mucho éxito, entonces dale una oportunidad a La programación JavaScript. Te enseñará exactamente todo lo que tienes que saber sobre cómo utilizar el lenguaje de programación más empleado en todo el mundo. Desde el comienzo, te enseñará lo básico y, a partir de allí, irás fortaleciendo tus conocimientos sobre la base de lo aprendido. Luego no pararás de utilizarlo... Incluso aunque JavaScript sea el lenguaje de programación del lado del cliente más popular de hoy día, también puede emplearse del lado del servidor. Node.js, Meteor, Wakanda, CouchDB, y MongoDB solo son unos pocos ejemplos de entornos donde encontrar y usar JavaScript del lado del servidor. El tiempo que inviertes en aprender JavaScript puede ser doblemente gratificante ya que JavaScript continúa avanzando en más y más áreas de la informática. Si estás buscando avanzar en tu carrera, JavaScript es una valiosa habilidad que puedes incorporar. Este tipo de conocimiento es muy demandado actualmente y esta necesidad no hará más que aumentar. Si deseas abrirte paso en el mercado laboral de la tecnología, ¿qué mejor habilidad para tener en tu currículum que algo que prácticamente puedes usar en cualquier lugar? ¿Quieres trabajar en la parte inicial de los sitios web? Aprende JavaScript. ¿Estás listo para encarar la programación de fondo de las aplicaciones web? Aprende JavaScript. ¿Quieres trabajar con la última tecnología de base de datos disponible? Entonces aprende JavaScript. Pero hazlo de la forma correcta, de una vez por todas. No importa si lo usas del lado del cliente en un navegador web o del lado del servidor. En cualquier caso, o en ambos, tendrás que aprender los fundamentos",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781507162699"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1507162693"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 35,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.3.3.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=DADnDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=DADnDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=DADnDQAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=DADnDQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=DADnDQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 1050.2,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 1050.2,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=DADnDQAAQBAJ&rdid=book-DADnDQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 1050200000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 1050200000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=DADnDQAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "¿Estás cansado de intentar aprender a programar? ¿Estás listo para conseguirlo? Si ya has intentado aprender a programar, pero no has tenido mucho éxito, entonces dale una oportunidad a La programación JavaScript."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Ro2fDwAAQBAJ",
+            "etag": "4TXKMk96xZM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Ro2fDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Diseño de páginas Web con XHTML, JavaScript y CSS. 3ª edición",
+                "authors": [
+                    "Juan Carlos Orós Cabello"
+                ],
+                "publisher": "Grupo Editorial RA-MA",
+                "description": "XHTML es el lenguaje nacido para sustituir al HTML como estándar para la programación de páginas web. Su objetivo es lograr una web semántica, donde la información y la forma de presentarla estén claramente separadas. En este sentido, XHTML se usaría para concretar el contenido del documento dejando para las hojas de estilo y JavaScript la definición, su aspecto y diseño. Como se indicó anteriormente, esta obra respeta las recomendaciones del W3C relacionadas con el estándar XHTML y las CSS, explicando de manera clara y con multitud de ejemplos las características fundamentales de JavaScript, para que el lector pueda aprender las bases de su programación y añadir a sus propias páginas interactividad y multimedia. Su contenido es de inestimable ayuda tanto para los usuarios que ya saben diseñar páginas Web con HTML (diseñadores, Webmasters, programadores, etc.) como para aquellos que nunca han creado un programa, ya que introduce de manera paulatina y sin esfuerzo el lenguaje JavaScript. Los primeros pasos consisten en afianzar los conocimientos necesarios de XHTML para que después, poco a poco, el lector se vaya familiarizando con la terminología de JavaScript hasta terminar con las CSS (Hojas de Estilo en Cascada), con las que podremos configurar el aspecto del documento. La obra se complementa con multitud de ejemplos que pueden ser descagados desde la página web de la Editorial Ra-Ma. Con esos ejercicios estudiados en los capítulos e infinidad de ejemplos, el usuario podrá ver, entender, aprender y afianzar todas las explicaciones.",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "PKEY:GREDRA102"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 376,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.4.0.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Ro2fDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Ro2fDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=Ro2fDwAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Ro2fDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Ro2fDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5947.62,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 5947.62,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=Ro2fDwAAQBAJ&rdid=book-Ro2fDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5947620000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5947620000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Dise%C3%B1o_de_p%C3%A1ginas_Web_con_XHTML_JavaSc-sample-pdf.acsm?id=Ro2fDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Ro2fDwAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "XHTML es el lenguaje nacido para sustituir al HTML como estándar para la programación de páginas web."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "rktOEAAAQBAJ",
+            "etag": "MR7ok70cPu4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/rktOEAAAQBAJ",
+            "volumeInfo": {
+                "title": "El gran libro de HTML5, CSS3 y Javascript",
+                "authors": [
+                    "Diego Gauchat Juan"
+                ],
+                "publisher": "Marcombo",
+                "publishedDate": "2013-06-01",
+                "description": "Vivimos una revolución. Internet ha dejado de ser sólo un instrumento de comunicación para convertirse en parte de, prácticamente, todos los aspectos de la vida humana. En este contexto, el lenguaje HTML5 ha adquirido una importancia única. Las aplicaciones de Internet a las que accedemos ahora incontables veces en un día, ya sea desde un ordenador de mesa, un teléfono móvil, una PDA o cualquier otro dispositivo, son posibles gracias a HTML5. Con este manual aprenderá, a través de ejercicios prácticos soportados por sólidos conocimientos teóricos, a crear toda clase de sitios webs y aplicaciones estructuradas en HTML5, con estilos CS3 y programadas con las más importantes y recientes herramientas de Javascript. Estudiará desde los conceptos más básicos y tradicionales de cada uno de los lenguajes hasta los más utilizados por verdaderos profesionales de la programación. En cada capítulo irá desarrollando diversos códigos que irán ganando complejidad a medida que se avanza en la lección y harán mucho más accesibles los conceptos previamente estudiados. Mediante el uso de los componentes de los tres lenguajes, las nuevas API que ofrece Javascript y librerías externas, aprenderá a escribir sus propios códigos para crear, programar y optimizar formularios, personalizar la forma en la que se reproduce un archivo de vídeo o de audio, insertar una o más pistas de subtítulos en un vídeo, controlar la entrada y salida de cualquier elemento en el modo de pantalla completa, capturar vídeo en streamig, crear gráficos y animaciones de dos y tres dimensiones, programar un vídeo juego, controlar la apariencia y la forma en la que se comporta el ratón en determinadas circunstancias, utilizar la geolocalización, manipular la historia de navegación del usuario, optimizar el funcionamiento fuera de línea de su sitio, crear aplicaciones de mensajería digital y otras formas de comunicación bidireccional, entre muchos otros conocimientos.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788426720641"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8426720641"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 857,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=rktOEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=rktOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=rktOEAAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=11&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=rktOEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=rktOEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 1669.99,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 1669.99,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=rktOEAAAQBAJ&rdid=book-rktOEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 1669990000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 1669990000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/El_gran_libro_de_HTML5_CSS3_y_Javascript-sample-epub.acsm?id=rktOEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/El_gran_libro_de_HTML5_CSS3_y_Javascript-sample-pdf.acsm?id=rktOEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=rktOEAAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Vivimos una revolución."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "UPECEAAAQBAJ",
+            "etag": "QjbuQ8mytyg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/UPECEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Guía Corta de Introducción a Javascript",
+                "subtitle": "Volumen 1",
+                "authors": [
+                    "Pedro Moriel"
+                ],
+                "publisher": "Pedro Moriel",
+                "publishedDate": "2020-10-14",
+                "description": "Esta guía te servirá si estas planeando comenzar en el mundo de la programación web con Javascript. Te presento algunos esenciales del lenguaje y ejemplos sencillos, prácticos y que hacen un poco mas fácil el aprendizaje básico de Javascript.",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 9,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.0.1.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=UPECEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=UPECEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=UPECEAAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=12&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=UPECEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UPECEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 293.14,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 293.14,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=UPECEAAAQBAJ&rdid=book-UPECEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 293140000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 293140000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Gu%C3%ADa_Corta_de_Introducci%C3%B3n_a_Javascrip-sample-pdf.acsm?id=UPECEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=UPECEAAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Esta guía te servirá si estas planeando comenzar en el mundo de la programación web con Javascript."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "JkxOEAAAQBAJ",
+            "etag": "94gRguQjac4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/JkxOEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Aprender HTML5, CSS3 y Javascript con 100 ejerecios",
+                "authors": [
+                    "MEDIAactive"
+                ],
+                "publisher": "Marcombo",
+                "publishedDate": "2020-04-03",
+                "description": "La triada formada por HTML5, Javascript y CSS3 se está consolidando como el estándar para el desarrollo de proyectos web. HTML5 aporta la estructura y contenidos de la página web; CSS3 define los estilos o el aspecto que tendrán cada uno de estos elementos y Javascript programa las acciones que realizarán determinados elementos bajo determinadas condiciones. Con este libro: -Utilizará las nuevas etiquetas semánticas de HTML5 para crear un completo sitio web con barras de navegación, vídeos, archivos de audio, etc. -Definirá colores, tipografías, sombras, bordes redondeados, filtros, sencillas animaciones y mucho más utilizando estilos CSS3. -Mediante los métodos y propiedades Javascript creará efectos y otros procesos que se ejecutarán gracias a eventos como el clic del usuario o la carga de la página.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788426728937"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8426728936"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 216,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=JkxOEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=JkxOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=JkxOEAAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=13&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=JkxOEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JkxOEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 839.99,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 839.99,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=JkxOEAAAQBAJ&rdid=book-JkxOEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 839990000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 839990000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Aprender_HTML5_CSS3_y_Javascript_con_100-sample-pdf.acsm?id=JkxOEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=JkxOEAAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "La triada formada por HTML5, Javascript y CSS3 se está consolidando como el estándar para el desarrollo de proyectos web."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "z7D2DwAAQBAJ",
+            "etag": "RDjsLW80MCM",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/z7D2DwAAQBAJ",
+            "volumeInfo": {
+                "title": "The Modern JavaScript Basics Tutorial",
+                "subtitle": "JavaScript from A to Z : Learn The JavaScript Programming Language Completely From Scratch",
+                "authors": [
+                    "Be Sure Academy"
+                ],
+                "publisher": "Sure Academy",
+                "publishedDate": "2023-01-15",
+                "description": "JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP. You will learn by examples In this book, learning speed is your choice. Everything is up to you. If you are struggling, take a break, or re-read the material. JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone. JavaScript is free to use for everyone. Start your coding today!",
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 78,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.2.3.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=z7D2DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=z7D2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=z7D2DwAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=14&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=z7D2DwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=z7D2DwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 2271.54,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 2271.54,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=z7D2DwAAQBAJ&rdid=book-z7D2DwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2271540000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2271540000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/The_Modern_JavaScript_Basics_Tutorial-sample-pdf.acsm?id=z7D2DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=z7D2DwAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "JavaScript is the programming language of the Web. JavaScript is easy to learn. Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP. You will learn by examples In this book, learning speed is your choice."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "FSVTDwAAQBAJ",
+            "etag": "636P28K0qv8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/FSVTDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Eloquent JavaScript, 3rd Edition",
+                "subtitle": "A Modern Introduction to Programming",
+                "authors": [
+                    "Marijn Haverbeke"
+                ],
+                "publisher": "No Starch Press",
+                "publishedDate": "2018-12-04",
+                "description": "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications. JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications. This much anticipated and thoroughly revised third edition of Eloquent JavaScript dives deep into the JavaScript language to show you how to write beautiful, effective code. It has been updated to reflect the current state of Java¬Script and web browsers and includes brand-new material on features like class notation, arrow functions, iterators, async functions, template strings, and block scope. A host of new exercises have also been added to test your skills and keep you on track. As with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs. You start by learning the basic structure of the JavaScript language as well as control structures, functions, and data structures to help you write basic programs. Then you'll learn about error handling and bug fixing, modularity, and asynchronous programming before moving on to web browsers and how JavaScript is used to program them. As you build projects such as an artificial life simulation, a simple programming language, and a paint program, you'll learn how to: - Understand the essential elements of programming, including syntax, control, and data - Organize and clarify your code with object-oriented and functional programming techniques - Script the browser and make basic web applications - Use the DOM effectively to interact with browsers - Harness Node.js to build servers and utilities Isn't it time you became fluent in the language of the Web? * All source code is available online in an inter¬active sandbox, where you can edit the code, run it, and see its output instantly.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781593279516"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1593279515"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 472,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.4.3.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=FSVTDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=FSVTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=FSVTDwAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=15&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=FSVTDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=FSVTDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 11548.68,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 11548.68,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=FSVTDwAAQBAJ&rdid=book-FSVTDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 11548680000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 11548680000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=FSVTDwAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "As with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "zyMUnspbsekC",
+            "etag": "J1Onq9TkqH4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/zyMUnspbsekC",
+            "volumeInfo": {
+                "title": "JavaScript by Example",
+                "authors": [
+                    "Ellie Quigley"
+                ],
+                "publisher": "Pearson Education",
+                "publishedDate": "2010-10-05",
+                "description": "The World’s Easiest Java Script Tutorial—Fully Updated! JavaScript by Example, Second Edition, is the easiest, most hands-on way to learn JavaScript. Legendary programming instructor Ellie Quigley has thoroughly updated her classic book to deliver the skills and information today’s JavaScript users need most—including up-to-the-minute coverage of JavaScript programming constructs, CSS, Ajax, JSON, and the latest JavaScript libraries and best practices. Quigley illuminates every technique with focused, classroom-tested code examples, detailed line-by-line explanations, and real program output. This exceptionally clear, easy-to-understand book takes you from your first script to advanced techniques. It’s the only JavaScript book you’ll ever need! New in This Edition End-of-chapter study tools, including classroom-tested labs Programming the DOM More Cascading Style Sheets Introduction to Ajax and JSON Explanation of how to develop interactive Web applications with dynamic, desktop-style interfaces Programmers’ preparation for HTML 5’s breakthrough capabilities This edition has been completely updated and includes many new and completely rewritten code examples; contains fully revised and updated coverage of Cascading Style Sheets (CSS) and the Document Object Model (DOM); and fully covers modern JavaScript concepts, principles, and programming techniques. Thousands of Web developers, administrators, and power users have relied on JavaScript by Example to become expert JavaScript programmers. With this new edition, you can, too—even if you’re completely new to JavaScript. After you’ve become an expert, you’ll turn to this book constantly as the best source for trustworthy answers, solutions, and code.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780137084760"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0137084765"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 1089,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "averageRating": 1,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.12.8.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=zyMUnspbsekC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=zyMUnspbsekC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=zyMUnspbsekC&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=16&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=zyMUnspbsekC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zyMUnspbsekC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7751.35,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 5425.94,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=zyMUnspbsekC&rdid=book-zyMUnspbsekC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7751350000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5425940000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=zyMUnspbsekC&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "With this new edition, you can, too—even if you’re completely new to JavaScript. After you’ve become an expert, you’ll turn to this book constantly as the best source for trustworthy answers, solutions, and code."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "FVWjEAAAQBAJ",
+            "etag": "At/Fq5fW7xU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/FVWjEAAAQBAJ",
+            "volumeInfo": {
+                "title": "JavaScript for hackers",
+                "subtitle": "Learn to think like a hacker",
+                "authors": [
+                    "Gareth Heyes"
+                ],
+                "publisher": "Gareth Heyes",
+                "description": "Have you ever wondered how a hacker approaches finding flaws in the browser and JavaScript? This book shares the thought processes and gives you tools to find your own flaws. It shares the basics of JavaScript hacking, then dives in and explains how to construct JavaScript payloads that don't use parentheses. Shows how you can find flaws with fuzzing and how to quickly fuzz millions of characters in seconds. Want to hack the DOM? This book has you covered. Read about various browser SOP bypasses that the author found in detail. No idea about client-side prototype pollution? This is the book for you! Want to learn the latest & greatest XSS techniques? You need to buy this book.",
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 65,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 2,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=FVWjEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=FVWjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=FVWjEAAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=17&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=FVWjEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=FVWjEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7000.5,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 7000.5,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=FVWjEAAAQBAJ&rdid=book-FVWjEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7000500000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7000500000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=FVWjEAAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Read about various browser SOP bypasses that the author found in detail. No idea about client-side prototype pollution? This is the book for you! Want to learn the latest &amp; greatest XSS techniques? You need to buy this book."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "HdOW3luqHZwC",
+            "etag": "pX1k2zB6o78",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/HdOW3luqHZwC",
+            "volumeInfo": {
+                "title": "JavaScript for Programmers",
+                "authors": [
+                    "Paul Deitel",
+                    "Harvey M. Deitel"
+                ],
+                "publisher": "Pearson Education",
+                "publishedDate": "2009-03-16",
+                "description": "The practicing programmer’s Deitel® guide to XHTML®, CSS®, JavaScript™, XML® and Ajax RIA development. This book applies the Deitel signature live-code approach to teaching the client side of Rich Internet Applications (RIA) development. The book presents concepts in the context of 100+ fully tested programs (6,000+ lines of code), complete with syntax shading, detailed descriptions and sample outputs. The book features over 150 tips that will help you build robust client-side web applications. Start with an introduction to Extensible HyperText Markup Language (XHTML®) and Cascading Style Sheets (CSS®), then rapidly move on to the details of JavaScript™ programming. Finish with more advanced client-side development technologies including XHTML’s Document Object Model (DOM®), Extensible Markup Language (XML®), XML’s DOM, JavaScript Object Notation (JSON) and Asynchronous JavaScript and XML (Ajax). When you’re finished, you’ll have everything you need to build the client side of Web 2.0 Rich Internet Applications (RIAs). The book culminates with several substantial Ajax-enabled RIAs, including a book cover viewer (JavaScript/DOM), an address book (Ajax/consuming web services) and a calendar application (Ajax/Dojo/consuming web services). TheDeitel® Developer Seriesis designed for professional programmers. The series presents focused treatments of emerging technologies, including .NET, Java™, web services, Internet and web development and more.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0137013116"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780137013111"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 448,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.5.3.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=HdOW3luqHZwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=HdOW3luqHZwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=HdOW3luqHZwC&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=18&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=HdOW3luqHZwC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=HdOW3luqHZwC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7012.77,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 4908.94,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=HdOW3luqHZwC&rdid=book-HdOW3luqHZwC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7012770000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 4908940000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=HdOW3luqHZwC&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This book applies the Deitel signature live-code approach to teaching the client side of Rich Internet Applications (RIA) development."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "AExOEAAAQBAJ",
+            "etag": "iZn8AbAXGtw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/AExOEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Aprender PHP, MySQL y JavaScript",
+                "authors": [
+                    "Robin Nixon"
+                ],
+                "publisher": "Marcombo",
+                "publishedDate": "2020-04-21",
+                "description": "Si quiere crear sitios web interactivos apoyados en bases de datos con la potente combinación de tecnologías de código abierto y estándares web, incluso sin tener conocimientos básicos de HTML, ha llegado al libro indicado. Gracias a esta guía práctica, abordará la programación web dinámica con la última versión de las principales herramientas del momento: PHP, MySQL, CSS, HTML5 y las bibliotecas clave de jQuery. Asimismo, aprenderá a utilizar estas tecnologías en su conjunto y accederá a valiosas prácticas de programación web. -Explorar MySQL desde la estructura de la base de datos hasta consultas complejas -Utilizar la extensión MySQLi, la interfaz MySQL mejorada de PHP -Crear páginas web dinámicas que se adaptan al usuario -Gestionar las cookies y las sesiones, y conservar un alto grado de seguridad -Mejorar el lenguaje JavaScript con las bibliotecas jQuery y jQuery Mobile -Utilizar las llamadas con AJAX para la comunicación en segundo plano entre el navegador y el servidor -Diseñar páginas web con las habilidades que adquirirá en CSS2 y CSS3 -Implementar las características de HTML5, incluidas la geolocalización, el audio, el vídeo y el elemento lienzo -Reformatear sus sitios web con aplicaciones web para móviles Al final del libro, descubrirá cómo unir todos los temas tratados para crear un sitio de redes sociales completamente funcional, adecuado para navegadores tanto de equipos de escritorio como de dispositivos móviles. Además, en la parte inferior de la primera página del libro encontrará el código de acceso que le permitirá acceder de forma gratuita a los contenidos adicionales en www.marcombo.info. Robin Nixon es periodista de las TI y especialista en las tecnologías presentadas en este libro. Ha trabajado y ha escrito sobre ordenadores desde 1980, es autor de cientos de artículos y libros sobre informática y ha desarrollado numerosos sitios web con herramientas de código abierto.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788426728692"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8426728693"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 795,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.1.1.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=AExOEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=AExOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "es",
+                "previewLink": "http://books.google.com.ar/books?id=AExOEAAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=19&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=AExOEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AExOEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 2359.99,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 2359.99,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=AExOEAAAQBAJ&rdid=book-AExOEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2359990000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2359990000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Aprender_PHP_MySQL_y_JavaScript-sample-epub.acsm?id=AExOEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.ar/books/download/Aprender_PHP_MySQL_y_JavaScript-sample-pdf.acsm?id=AExOEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=AExOEAAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Robin Nixon es periodista de las TI y especialista en las tecnologías presentadas en este libro."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "n23WDQAAQBAJ",
+            "etag": "QxQQTzzjD3Y",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/n23WDQAAQBAJ",
+            "volumeInfo": {
+                "title": "JavaScript: Functional Programming for JavaScript Developers",
+                "authors": [
+                    "Ved Antani",
+                    "Simon Timms",
+                    "Dan Mantyla"
+                ],
+                "publisher": "Packt Publishing Ltd",
+                "publishedDate": "2016-08-31",
+                "description": "Unlock the powers of functional programming hidden within JavaScript to build smarter, cleaner, and more reliable web apps About This Book Write powerful code with the high-level functions that JavaScript offers Discover what functional programming is, why it's effective, and how it's used in JavaScript Understand and optimize JavaScript's hidden potential as a true functional language Who This Book Is For If you are a JavaScript developer interested in learning functional programming, looking for the quantum leap toward mastering the JavaScript language, or just want to become a better programmer in general, then this book is ideal for you. This guide is aimed at programmers, involved in developing reactive frontend apps, server-side apps that wrangle with reliability and concurrency, and everything in between. What You Will Learn Get a run through of the basic JavaScript language constructs Code using the powerful object-oriented feature in JavaScript Master DOM manipulation, cross-browser strategies, and ES6 Understand the basic concurrency constructs in Javascript and best performance strategies Harness the power of patterns for tasks ranging from application building to code testing Build large-scale apps seamlessly with the help of reactive patterns Explore advanced design patterns, including dependency injection Develop more powerful applications with currying and function composition Create more reliable code with closures and immutable data In Detail JavaScript is a high-level, dynamic, untyped, lightweight, and interpreted programming language and functional programming is a style that emphasizes and enables smarter code that minimizes complexity and increases modularity. It's a way of writing cleaner code through clever ways of mutating, combining, and using functions. And JavaScript provides an excellent medium for this approach. By learning how to expose JavaScript's true identity as a functional language, we can implement web apps that are more powerful, easier to maintain and more reliable. The java script: Functional Programming for JavaScript Developers course will take you on a journey to show how functional programming when combined with other techniques makes JavaScript programming more efficient. The first module Mastering JavaScript, stress on practical aspects of Javascript development like—Functions and Closures, Runtime debugging techniques, project layout, events and DOM processing, build tools, Object-oriented patterns, isomorphism—everything that a modern Javascript project would need. The second module, Mastering JavaScript Design Patterns - Second Edition, will explore how design patterns can help you improve and organize your JavaScript code. You'll get to grips with creational, structural, and behavioral patterns as you discover how to put them to work in different scenarios. This updated edition will also delve into reactive design patterns and microservices as they are a growing phenomenon in the world of web development. It will also show you some advanced patterns, including dependency injection and live post processing. The third module, Functional Programming in JavaScript, will help you to write real-world applications by utilizing a wide range of functional techniques and styles. It explores the core concepts of functional programming common to all functional languages, with examples of their use in JavaScript. Style and approach This course will begin with providing insights and practical tips on advanced JavaScript features to build highly scalable web and mobile system and move on to some design patterns with JavaScript. Finally, the course ends with presenting the functional programming techniques and styles in JavaScript.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781787125575"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1787125572"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 635,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.4.4.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=n23WDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=n23WDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=n23WDQAAQBAJ&printsec=frontcover&dq=JavaScript&hl=&as_brr=6&cd=20&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=n23WDQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=n23WDQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 18460.69,
+                    "currencyCode": "ARS"
+                },
+                "retailPrice": {
+                    "amount": 12922.48,
+                    "currencyCode": "ARS"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=n23WDQAAQBAJ&rdid=book-n23WDQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 18460690000,
+                            "currencyCode": "ARS"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 12922480000,
+                            "currencyCode": "ARS"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=n23WDQAAQBAJ&hl=&as_brr=6&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Unlock the powers of functional programming hidden within JavaScript to build smarter, cleaner, and more reliable web apps About This Book Write powerful code with the high-level functions that JavaScript offers Discover what functional ..."
+            }
+        }
+    ]
+}

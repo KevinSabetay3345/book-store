@@ -17,7 +17,7 @@
   width: 150px;
   height: 200px;
   position: absolute;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
   color: white;
   display: flex;
   flex-direction: column;

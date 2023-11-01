@@ -8,10 +8,10 @@ import PropTypes from 'prop-types';
 export const BookModal = ( { book, handleClose } ) => {
     
   return (
-        <div className="modal-main">
+    <div className="modal-main" data-test="book-modal">
           
           <header className="modal-header">
-            <button className="close-modal" type="button" onClick={handleClose}>
+            <button data-test="close-modal" className="close-modal" type="button" onClick={handleClose}>
               <CloseOutlined />
             </button>
           </header>

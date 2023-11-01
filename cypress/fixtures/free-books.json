@@ -1,0 +1,1365 @@
+{
+    "totalItems": 95,
+    "items":
+    [
+        {
+            "kind": "books#volume",
+            "id": "KEfaryDam5QC",
+            "etag": "Cl3tCYo1WH8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/KEfaryDam5QC",
+            "volumeInfo": {
+                "title": "FEDLINK Technical Notes",
+                "publishedDate": "1996",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "IND:30000047129352"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 404,
+                "printType": "BOOK",
+                "categories": [
+                    "Government libraries"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.6.6.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=KEfaryDam5QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=KEfaryDam5QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=KEfaryDam5QC&pg=RA11-PA6&dq=JavaScript&hl=&as_brr=7&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=KEfaryDam5QC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=KEfaryDam5QC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=KEfaryDam5QC&rdid=book-KEfaryDam5QC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/FEDLINK_Technical_Notes.epub?id=KEfaryDam5QC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=KEfaryDam5QC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> dictates certain reactions when users perform specified actions on pre - defined objects . <b>JavaScript</b> can then allow users to perform actions in different sequences or more than once . <b>JavaScript</b> objects may include the&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "H259xl0TxagC",
+            "etag": "F4t6ZfTNmLE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/H259xl0TxagC",
+            "volumeInfo": {
+                "title": "Research Report",
+                "publishedDate": "2009",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "PURD:32754073495594"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 78,
+                "printType": "BOOK",
+                "categories": [
+                    "Military education"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.0.1.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=H259xl0TxagC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=H259xl0TxagC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=H259xl0TxagC&pg=PA18&dq=JavaScript&hl=&as_brr=7&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=H259xl0TxagC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=H259xl0TxagC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=H259xl0TxagC&rdid=book-H259xl0TxagC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Research_Report.epub?id=H259xl0TxagC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=H259xl0TxagC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> . The steps involved in developing the system software are described later . From the beginning , ( CT ) 2 was envisioned as individual , knowledge - focused on - line instruction . The training analysts expanded each section&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "5g0SAQAAMAAJ",
+            "etag": "Cdaq35wdKMA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/5g0SAQAAMAAJ",
+            "volumeInfo": {
+                "title": "21st National Information Systems Security Conference",
+                "subtitle": "Building the Information Security Bridge to the 21st Century : October 5-8, 1998, Hyatt Regency Crystal City, Arlington, Va",
+                "publishedDate": "1998",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "CORNELL:31924083977813"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 854,
+                "printType": "BOOK",
+                "categories": [
+                    "Computer security"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.4.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=5g0SAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=5g0SAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=5g0SAQAAMAAJ&pg=PA145&dq=JavaScript&hl=&as_brr=7&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=5g0SAQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=5g0SAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=5g0SAQAAMAAJ&rdid=book-5g0SAQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/21st_National_Information_Systems_Securi.epub?id=5g0SAQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=5g0SAQAAMAAJ&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> interfaces through the web browser and commands it to perform actions . Typical <b>JavaScript</b> implementations on Web pages include opening a pop - up advertising window or changing the contents of the status line in the browser&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "cNNEAQAAMAAJ",
+            "etag": "Pt2e4yEn5Vc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/cNNEAQAAMAAJ",
+            "volumeInfo": {
+                "title": "Social Security Disability Programs",
+                "subtitle": "Improving the Quality of Benefit Award Decisions : Hearing Before the Permanent Subcommittee on Investigations of the Committee on Homeland Security and Governmental Affairs, United States Senate, One Hundred Twelfth Congress, Second Session, September 13, 2012",
+                "authors": [
+                    "United States. Congress. Senate. Committee on Homeland Security and Governmental Affairs. Permanent Subcommittee on Investigations"
+                ],
+                "publishedDate": "2013",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "MINN:31951D03695328K"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 1148,
+                "printType": "BOOK",
+                "categories": [
+                    "Disability evaluation"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=cNNEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=cNNEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=cNNEAQAAMAAJ&pg=PA520&dq=JavaScript&hl=&as_brr=7&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=cNNEAQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cNNEAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=cNNEAQAAMAAJ&rdid=book-cNNEAQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Social_Security_Disability_Programs.epub?id=cNNEAQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=cNNEAQAAMAAJ&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>javascript</b> : hideShowData ViewSection ( % 22Ticket / Programinformation - InitialLevel % 22 ) Ticket / Program Information - Initial Level No <b>javascript</b> : hideShowData ViewSection ( % 22Ticket / ProgramInformationReconsiderationLevel&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Qyk-AQAAIAAJ",
+            "etag": "3CSOnwAGZ0s",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Qyk-AQAAIAAJ",
+            "volumeInfo": {
+                "title": "The Distribution, Habitat, and Status of the Valley Elderberry Longhorn Beetle",
+                "subtitle": "Desmocerus Californicus Dimorphus Fisher : (Insecta : Coleoptera : Cerambycidae)",
+                "authors": [
+                    "Cheryl Barkley Barr"
+                ],
+                "publishedDate": "1991",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCSC:32106016519842"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 316,
+                "printType": "BOOK",
+                "categories": [
+                    "Desmocerus californicus"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.5.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Qyk-AQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Qyk-AQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=Qyk-AQAAIAAJ&pg=RA4-PT6&dq=JavaScript&hl=&as_brr=7&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Qyk-AQAAIAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Qyk-AQAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=Qyk-AQAAIAAJ&rdid=book-Qyk-AQAAIAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/The_Distribution_Habitat_and_Status_of_t.epub?id=Qyk-AQAAIAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Qyk-AQAAIAAJ&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> generates linked , online programs that share objects and resources on both clients and servers . Learn <b>JavaScript</b> from the ground up including creative interactive forms , games , <b>JavaScript</b> events , cookies and the advanced&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "H6YrUq2w-TUC",
+            "etag": "mdYPK+oiR78",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/H6YrUq2w-TUC",
+            "volumeInfo": {
+                "title": "FCC Record",
+                "subtitle": "A Comprehensive Compilation of Decisions, Reports, Public Notices, and Other Documents of the Federal Communications Commission of the United States",
+                "authors": [
+                    "United States. Federal Communications Commission"
+                ],
+                "publishedDate": "2017",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "OSU:32437123599017"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 986,
+                "printType": "BOOK",
+                "categories": [
+                    "Telecommunication"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=H6YrUq2w-TUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=H6YrUq2w-TUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=H6YrUq2w-TUC&pg=PA2026&dq=JavaScript&hl=&as_brr=7&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=H6YrUq2w-TUC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=H6YrUq2w-TUC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=H6YrUq2w-TUC&rdid=book-H6YrUq2w-TUC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/FCC_Record.epub?id=H6YrUq2w-TUC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=H6YrUq2w-TUC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> with a minimum of TLS 1.1 security • Access to the internet 1600 x 900 screen resolution or higher . 81. Smartphones and tablets are not supported . The CORES Incentive Auction Financial Module may run on different computer&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "nhJ846WIpZAC",
+            "etag": "yetF0yj1mL0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/nhJ846WIpZAC",
+            "volumeInfo": {
+                "title": "Statement of Disbursements of the House",
+                "subtitle": "As Compiled by the Chief Administrative Officer from ...",
+                "authors": [
+                    "United States. Congress. House"
+                ],
+                "publishedDate": "1996",
+                "description": "Covers receipts and expenditures of appropriations and other funds.",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCR:31210013507999"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 1764,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.5.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=nhJ846WIpZAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=nhJ846WIpZAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=nhJ846WIpZAC&pg=PA95&dq=JavaScript&hl=&as_brr=7&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=nhJ846WIpZAC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nhJ846WIpZAC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=nhJ846WIpZAC&rdid=book-nhJ846WIpZAC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Statement_of_Disbursements_of_the_House.epub?id=nhJ846WIpZAC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=nhJ846WIpZAC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JAVASCRIPT</b> TRAINING 09/10/98 11/13/98 <b>JAVASCRIPT</b> TRAINING 09/10/98 11/13/98 <b>JAVASCRIPT</b> TRAINING 09/10/98 11/13/98 <b>JAVASCRIPT</b> TRAINING 02/01/99 02/01/99 470.M2 CONFIGURING AND SECURIN 02/01/99 02/01/99 470.M3 WEB SERVER PROGRAMMING 02/01&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Uy62815lIqYC",
+            "etag": "7IO8QM+Zi4I",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Uy62815lIqYC",
+            "volumeInfo": {
+                "title": "Proceedings of the 9th Annual Federal Depository Library Conference, October 22-25, 2000, Holiday Inn Rosslyn Westpark Hotel, Arlington, VA.",
+                "publishedDate": "2001",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "PURD:32754081643938"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 204,
+                "printType": "BOOK",
+                "categories": [
+                    "Depository libraries"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.6.9.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Uy62815lIqYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Uy62815lIqYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=Uy62815lIqYC&pg=PA176&dq=JavaScript&hl=&as_brr=7&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Uy62815lIqYC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Uy62815lIqYC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=Uy62815lIqYC&rdid=book-Uy62815lIqYC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Proceedings_of_the_9th_Annual_Federal_De.epub?id=Uy62815lIqYC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Uy62815lIqYC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> is a useful tool in developing Web resources . For example , it is used to check that a user has completed a form before forwarding it for further processing . Nevertheless , in developing DocsCite , I learned that using&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "cyaxL2bgjyEC",
+            "etag": "HWrfYGGccGg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/cyaxL2bgjyEC",
+            "volumeInfo": {
+                "title": "Proceedings of the ... Annual Federal Depository Library Conference",
+                "publishedDate": "2000",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "MINN:30000006505287"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 202,
+                "printType": "BOOK",
+                "categories": [
+                    "Depository libraries"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=cyaxL2bgjyEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=cyaxL2bgjyEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=cyaxL2bgjyEC&pg=PA176&dq=JavaScript&hl=&as_brr=7&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=cyaxL2bgjyEC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cyaxL2bgjyEC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=cyaxL2bgjyEC&rdid=book-cyaxL2bgjyEC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Proceedings_of_the_Annual_Federal_Deposi.epub?id=cyaxL2bgjyEC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=cyaxL2bgjyEC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> is a useful tool in developing Web resources . For example , it is used to check that a user has completed a form before forwarding it for further processing . Nevertheless , in developing DocsCite , I learned that using&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "7tloRoesLAsC",
+            "etag": "/wIMksO2RH8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/7tloRoesLAsC",
+            "volumeInfo": {
+                "title": "FAR/AIM.",
+                "publishedDate": "2007",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UIUC:30112075321320"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 1052,
+                "printType": "BOOK",
+                "categories": [
+                    "Aeronautics"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=7tloRoesLAsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=7tloRoesLAsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=7tloRoesLAsC&pg=PA811&dq=JavaScript&hl=&as_brr=7&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=7tloRoesLAsC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7tloRoesLAsC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=7tloRoesLAsC&rdid=book-7tloRoesLAsC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/FAR_AIM.epub?id=7tloRoesLAsC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=7tloRoesLAsC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> displays , respectively . Canal Comadre Islestone Jabe Ervaar Comert Curs Ive her id CheHirapon Polygons ( e ) Previous Performance Folycers ( Purple ) clom spool ( co / ( 1001 angkatan 10 Predayes Airports Cauntes ARTCC&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "zZka0DLbngYC",
+            "etag": "9nEFfASsy48",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/zZka0DLbngYC",
+            "volumeInfo": {
+                "title": "Information Technology--essential Yet Vulnerable",
+                "subtitle": "How Prepared are We for Attacks? : Hearing Before the Subcommittee on Government Efficiency, Financial Management and Intergovernmental Relations of the Committee on Government Reform, House of Representatives, One Hundred Seventh Congress, First Session, September 26, 2001",
+                "authors": [
+                    "United States. Congress. House. Committee on Government Reform. Subcommittee on Government Efficiency, Financial Management, and Intergovernmental Relations"
+                ],
+                "publishedDate": "2002",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "PURD:32754073710893"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 184,
+                "printType": "BOOK",
+                "categories": [
+                    "Administrative agencies"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.6.9.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=zZka0DLbngYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=zZka0DLbngYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=zZka0DLbngYC&pg=PA64&dq=JavaScript&hl=&as_brr=7&cd=11&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=zZka0DLbngYC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zZka0DLbngYC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=zZka0DLbngYC&rdid=book-zZka0DLbngYC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Information_Technology_essential_Yet_Vul.epub?id=zZka0DLbngYC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=zZka0DLbngYC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> End - user systems can become infected with the Nimda worm by browsing web sites hosted by infected servers . This method of infection requires the use of <b>JavaScript</b> to be successful . Therefore , the CERT / CC recommends&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "5tZIAQAAMAAJ",
+            "etag": "TRZbVLdNAnY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/5tZIAQAAMAAJ",
+            "volumeInfo": {
+                "title": "Preparing for the 2009 Pandemic Flu",
+                "subtitle": "Hearing Before the Committee on Energy and Commerce, House of Representatives, One Hundred Eleventh Congress, First Session, September 15, 2009",
+                "authors": [
+                    "United States. Congress. House. Committee on Energy and Commerce"
+                ],
+                "publishedDate": "2012",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "MINN:31951D035932544"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 100,
+                "printType": "BOOK",
+                "categories": [
+                    "Emergency medical services"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.4.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=5tZIAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=5tZIAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=5tZIAQAAMAAJ&pg=PA25&dq=JavaScript&hl=&as_brr=7&cd=12&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=5tZIAQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=5tZIAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=5tZIAQAAMAAJ&rdid=book-5tZIAQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Preparing_for_the_2009_Pandemic_Flu.epub?id=5tZIAQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=5tZIAQAAMAAJ&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>javascript</b> &quot; src = &quot; http://transparency.cit.nih.gov/widgets/flugovlinks.cfm?<b>javascript</b> &quot; &gt; &lt; / script &gt; &lt; noscript &gt; &lt; iframe src = &quot; http://transparency.cit.nih.gov/widgets/flugovlinks.cfm &quot; name = &quot; flugovframe &quot; frameborder = 0 id&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "xjckAQAAIAAJ",
+            "etag": "Ra3T5w6WzOA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/xjckAQAAIAAJ",
+            "volumeInfo": {
+                "title": "Advanced Training Technologies and Learning Environments",
+                "publishedDate": "1999",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "NASA:31769000473978"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 480,
+                "printType": "BOOK",
+                "categories": [
+                    "Computer-assisted instruction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.6.11.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=xjckAQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=xjckAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=xjckAQAAIAAJ&pg=PA71&dq=JavaScript&hl=&as_brr=7&cd=13&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=xjckAQAAIAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xjckAQAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=xjckAQAAIAAJ&rdid=book-xjckAQAAIAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Advanced_Training_Technologies_and_Learn.epub?id=xjckAQAAIAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=xjckAQAAIAAJ&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> STANDARDS ) &quot; Any media type that the browser directly supports &quot; ⚫DHTML ( deemed problematic ) • Use of a 4.0+ browser ( for now ) Client - to - Server API Training Terms vs. Technology Terms Learning Model Content On&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "SIVwFjV9uJ8C",
+            "etag": "ee+va+JQfhI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/SIVwFjV9uJ8C",
+            "volumeInfo": {
+                "title": "Education and Training for the Information Technology Workforce",
+                "subtitle": "Report to Congress from the Secretary of Commerce",
+                "publishedDate": "2003",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UIUC:30112055124520"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 236,
+                "printType": "BOOK",
+                "categories": [
+                    "Government publications"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=SIVwFjV9uJ8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=SIVwFjV9uJ8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=SIVwFjV9uJ8C&pg=PA42&dq=JavaScript&hl=&as_brr=7&cd=14&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=SIVwFjV9uJ8C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SIVwFjV9uJ8C"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=SIVwFjV9uJ8C&rdid=book-SIVwFjV9uJ8C&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Education_and_Training_for_the_Informati.epub?id=SIVwFjV9uJ8C&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=SIVwFjV9uJ8C&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> CGI SQL Perl Active Server Pages CGI <b>JavaScript</b> Solaris Database Development and Administration Oracle SQL Server LAN / WAN TCP / IP Ethernet Ethernet Switching 10 Base - T Switching Virus protection , firewalls Client&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "RtpIAQAAMAAJ",
+            "etag": "TwxPPZiH+Bo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/RtpIAQAAMAAJ",
+            "volumeInfo": {
+                "title": "Do-not-track Legislation",
+                "subtitle": "Is Now the Right Time? : Hearing Before the Subcommittee on Commerce, Trade, and Consumer Protection of the Committee on Energy and Commerce, House of Representatives, One Hundred Eleventh Congress, Second Session, December 2, 2010",
+                "authors": [
+                    "United States. Congress. House. Committee on Energy and Commerce. Subcommittee on Commerce, Trade, and Consumer Protection"
+                ],
+                "publishedDate": "2013",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "MINN:31951D03492837S"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 168,
+                "printType": "BOOK",
+                "categories": [
+                    "Computer security"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.4.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=RtpIAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=RtpIAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=RtpIAQAAMAAJ&pg=PA77&dq=JavaScript&hl=&as_brr=7&cd=15&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=RtpIAQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RtpIAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=RtpIAQAAMAAJ&rdid=book-RtpIAQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Do_not_track_Legislation.epub?id=RtpIAQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=RtpIAQAAMAAJ&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> can also be done in Flash . So , in principle , Flash - based advertisements can implement the same kinds of attacks that are possible through malicious <b>JavaScript</b> . These include scanning internal network hosts and &quot; drive&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "zgWVggzfgK8C",
+            "etag": "3pLVYJh8D/8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/zgWVggzfgK8C",
+            "volumeInfo": {
+                "title": "Programs and Services",
+                "authors": [
+                    "National Library of Medicine (U.S.)"
+                ],
+                "publishedDate": "1997",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "IND:30000105244606"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 104,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=zgWVggzfgK8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=zgWVggzfgK8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=zgWVggzfgK8C&pg=PA23&dq=JavaScript&hl=&as_brr=7&cd=16&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=zgWVggzfgK8C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zgWVggzfgK8C"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=zgWVggzfgK8C&rdid=book-zgWVggzfgK8C&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Programs_and_Services.epub?id=zgWVggzfgK8C&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=zgWVggzfgK8C&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>Javascript</b> capability to present fundamental concepts in toxicology , and new online file demonstration packages were made available using <b>Javascript</b> . A new HTML version of the Calendar of Events in Toxicology and Environmental Health&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "4YsMn9E2WtsC",
+            "etag": "rufJaApSmto",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/4YsMn9E2WtsC",
+            "volumeInfo": {
+                "title": "National Library of Medicine Programs and Services",
+                "authors": [
+                    "National Library of Medicine (U.S.)",
+                    "National Library of Medicine (U.S.)."
+                ],
+                "publishedDate": "1997",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "MINN:31951D017405381"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 96,
+                "printType": "BOOK",
+                "categories": [
+                    "Medical libraries"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=4YsMn9E2WtsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=4YsMn9E2WtsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=4YsMn9E2WtsC&pg=PA23&dq=JavaScript&hl=&as_brr=7&cd=17&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=4YsMn9E2WtsC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4YsMn9E2WtsC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=4YsMn9E2WtsC&rdid=book-4YsMn9E2WtsC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/National_Library_of_Medicine_Programs_an.epub?id=4YsMn9E2WtsC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=4YsMn9E2WtsC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>Javascript</b> capability to present fundamental concepts in toxicology , and new online file demonstration packages were made available using <b>Javascript</b> . A new HTML version of the Calendar of Events in Toxicology and Environmental Health&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "udd1Z6ppmowC",
+            "etag": "ylqpxRQ7VtE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/udd1Z6ppmowC",
+            "volumeInfo": {
+                "title": "The Consumer Financial Protection Bureau's Semiannual Report to Congress",
+                "subtitle": "Hearing Before the Committee on Banking, Housing, and Urban Affairs, United States Senate, One Hundred Thirteenth Congress, First Session",
+                "authors": [
+                    "United States. Congress. Senate. Committee on Banking, Housing, and Urban Affairs"
+                ],
+                "publishedDate": "2014",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "STANFORD:36105050671754"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 956,
+                "printType": "BOOK",
+                "categories": [
+                    "Consumer protection"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.4.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=udd1Z6ppmowC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=udd1Z6ppmowC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=udd1Z6ppmowC&pg=PA794&dq=JavaScript&hl=&as_brr=7&cd=18&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=udd1Z6ppmowC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=udd1Z6ppmowC"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=udd1Z6ppmowC&rdid=book-udd1Z6ppmowC&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/The_Consumer_Financial_Protection_Bureau.epub?id=udd1Z6ppmowC&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=udd1Z6ppmowC&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>Javascript</b> . This course enables students to design a user - centered website , become more innovative with web design and master technical vocabulary to communicate ideas to website users . This course is needed for Ms. Mehgan luto , a&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "2YCRAAAAMAAJ",
+            "etag": "OE/8XgQjyug",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/2YCRAAAAMAAJ",
+            "volumeInfo": {
+                "title": "Technical Reference Model",
+                "authors": [
+                    "United States. Patent and Trademark Office"
+                ],
+                "publishedDate": "1997",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UOM:39015041246524"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 204,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.5.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=2YCRAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=2YCRAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=2YCRAAAAMAAJ&pg=SA4-PA66&dq=JavaScript&hl=&as_brr=7&cd=19&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=2YCRAAAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2YCRAAAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=2YCRAAAAMAAJ&rdid=book-2YCRAAAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Technical_Reference_Model.epub?id=2YCRAAAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=2YCRAAAAMAAJ&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> , and plug - ins . LiveConnect enables plug - ins , Java applets , and <b>JavaScript</b> to communicate and interact seamlessly with each other . Netscape Navigator supports secure standards such as Secure Sockets Layer ( SSL ) 3.0&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "W21PAAAAMAAJ",
+            "etag": "iNDaw3qZqUE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/W21PAAAAMAAJ",
+            "volumeInfo": {
+                "title": "Inspector's Compliance Assistance Resources Guide",
+                "authors": [
+                    "United States. Environmental Protection Agency. Enforcement and Compliance Assurance"
+                ],
+                "publishedDate": "2003",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UOM:39015059127723"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 122,
+                "printType": "BOOK",
+                "categories": [
+                    "Environmental auditing"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.4.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=W21PAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=W21PAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.ar/books?id=W21PAAAAMAAJ&pg=PP69&dq=JavaScript&hl=&as_brr=7&cd=20&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=W21PAAAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=W21PAAAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "AR",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=W21PAAAAMAAJ&rdid=book-W21PAAAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "AR",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com.ar/books/download/Inspector_s_Compliance_Assistance_Resour.epub?id=W21PAAAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=W21PAAAAMAAJ&hl=&as_brr=7&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>JavaScript</b> error Type <b>javascript</b> anto Location for details Start restarting the Clearinghou . Compliance assistan .... WordPerfect 3- [ Docume ... NO 1214 PM 55 4 . Find future compliance assistance activities . 56 FY02."
+            }
+        }
+    ]
+}

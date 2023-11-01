@@ -10,7 +10,7 @@ export const CartItem = ( { item } ) => {
     const t = useTranslation();
     
     return(
-        <div className="item-grid">
+        <div className="item-grid" data-test="cart-item">
 
             <div className="item-img">
                 <img 
@@ -48,7 +48,7 @@ export const CartItem = ( { item } ) => {
                 <div className="sum-price">
                     <p>ARS${ (item.price*item.quantity).toFixed(2) }</p>
                 </div>
-                <button className={ "item-delete" } onClick={ () => dispatch( removeItem(item.id) ) }>
+                <button data-test="delete-item" className={ "item-delete" } onClick={ () => dispatch( removeItem(item.id) ) }>
                     {t("Eliminar")}
                 </button>                            
             </div>
