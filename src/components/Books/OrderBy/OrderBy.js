@@ -1,24 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './OrderBy.css';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { orderBooks } from '../../../slices/bookSlice';
 import { useTranslation } from '../../../hooks/useTranslation';
 import ReactGA from 'react-ga4';
-import { useLocation } from 'react-router-dom';
 
 export const OrderBy = () => {
-    const location = useLocation()
     const dispatch = useDispatch()
-    const [orderBy, setOrderBy] = useState("default")
+    const orderBy = useSelector(state => state.books.orderBy);
     const t = useTranslation()
   
-    /* Every new search order-by should empty */
-    useEffect(() => {
-        setOrderBy("default")
-    }, [location])
 
     function changeOrder(e) {
-        setOrderBy(e.target.value)
         dispatch( orderBooks(e.target.value) )
         ReactGA.event("order_books", { order: e.target.value })
     }

@@ -50,8 +50,9 @@ export const fetchBooks = createAsyncThunk(
 
 const initialState = {
   bookList: [],
-  error: [],
-  isLoaded: false
+  error: '',
+  isLoaded: false,
+  orderBy: 'default'
 }
 
 export const bookSlice = createSlice({
@@ -59,6 +60,8 @@ export const bookSlice = createSlice({
   initialState,
   reducers: {
     orderBooks: (state, action) => {
+      state.orderBy = action.payload
+
       switch (action.payload){
         case "LOW_PRICE" :
           state.bookList = state.bookList.sort( (a, b) => a.price > b.price ? 1 : -1 )
@@ -80,7 +83,8 @@ export const bookSlice = createSlice({
   extraReducers: (builder) => {
     builder.addCase(fetchBooks.pending, (state) => {
       state.isLoaded = false
-      state.error = []
+      state.error = ''
+      state.orderBy = 'default'
     })
     builder.addCase(fetchBooks.fulfilled, (state, action) => {
       state.isLoaded = true
