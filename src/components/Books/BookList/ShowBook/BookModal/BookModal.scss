@@ -1,20 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
- .modal-main {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Montserrat', 'Roboto', sans-serif;
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.modal-background-exit {
+  animation: fade-out 500ms ease forwards;
+}
 
-    .modal-header {
-      align-self: flex-end;
-
-      .close-modal {
-        background: transparent;
-        border: none;
-        cursor: pointer;
-        font-size: 1.2rem;
-        outline: none;
-      }
-    }
+@keyframes fade-out {
+  0% {
+    background: rgba(0, 0, 0, 0.7);
   }
+  30% {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  border: none;
+  position: absolute;
+  top: -400px;
+  left: 20%;
+  right: 20%;
+  max-height: 80vh;
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  overflow: auto;
+  outline: none;
+  animation: drop 500ms ease forwards;
+}
+@keyframes drop {
+  0% {
+    top: -400px;
+  }
+  70% {
+    top: 15vh;
+  }
+  100% {
+    top: 10vh;
+  }
+}
+.modal-wrapper-exit {
+  opacity: 1;
+  animation: drop2 500ms ease-out;
+}
+@keyframes drop2 {
+  0% {
+    top: 10vh;
+  }
+  40% {
+    top: 5vh;
+  }
+  100% {
+    top: 120vh;
+  }
+}
+
+.modal-header {
+  align-self: flex-end;
+
+  .close-modal {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    outline: none;
+  }
+}

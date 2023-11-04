@@ -39,7 +39,7 @@ export const ModalFooter = ( { book } ) => {
             
               <button
                 data-test="add-to-cart"
-                className={ existsInCart ? "action-btn fade-out" : "action-btn" } 
+                className={`action-btn ${existsInCart && "fade-out"}`} 
                 onClick={ () => addItemToCart(book) }
                 disabled={ existsInCart ? "disabled" : "" }
               >

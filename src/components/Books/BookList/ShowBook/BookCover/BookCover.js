@@ -4,11 +4,11 @@ import { ShoppingCartOutlined, ReadOutlined } from '@ant-design/icons';
 import PropTypes from 'prop-types';
 import ReactGA from 'react-ga4';
 
-export const BookCover = ( { book, showModal } ) => {
+export const BookCover = ( { book, openModal } ) => {
     const [visible, setVisible] = useState(false);
 
-    function openModal() {
-        showModal(true)
+    function handleOpenModal() {
+        openModal()
         ReactGA.event("view_item", {
             title: book.title,
             price: book.price
@@ -16,7 +16,7 @@ export const BookCover = ( { book, showModal } ) => {
     }
 
     return (
-        <div data-test="book-cover" className="book-cover" onClick={openModal}>
+        <div data-test="book-cover" className="book-cover" onClick={handleOpenModal}>
             
             <div className="img">
                 <img 

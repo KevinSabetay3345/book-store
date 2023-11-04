@@ -48,7 +48,7 @@ export const CartItem = ( { item } ) => {
                 <div className="sum-price">
                     <p>ARS${ (item.price*item.quantity).toFixed(2) }</p>
                 </div>
-                <button data-test="delete-item" className={ "item-delete" } onClick={ () => dispatch( removeItem(item.id) ) }>
+                <button data-test="delete-item" className="item-delete" onClick={ () => dispatch( removeItem(item.id) ) }>
                     {t("Eliminar")}
                 </button>                            
             </div>
