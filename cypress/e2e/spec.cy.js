@@ -56,7 +56,6 @@ describe('E2E Test', () => {
     cy.getDataTest('book-modal').should('not.exist')
 
     cy.getDataTest('order-by').select('HIGH_PRICE')
-    cy.wait(1000)
 
     //Open first book, add to cart, close modal
     cy.getDataTest('book-cover').eq(0).click()  
@@ -66,14 +65,13 @@ describe('E2E Test', () => {
     cy.getDataTest('go-to-cart')
     cy.getDataTest('close-modal').click()
     cy.getDataTest('book-modal').should('not.exist')
-    cy.wait(1000)
 
     //Open same book, check is added, close modal
     cy.getDataTest('book-cover').eq(0).click()
     cy.getDataTest('book-modal')
     cy.getDataTest('go-to-cart')
     cy.getDataTest('close-modal').click()
-    cy.wait(1000)
+    cy.getDataTest('book-modal').should('not.exist')
 
     //Open second book, do not add, close modal
     cy.getDataTest('book-cover').eq(1).click()
@@ -81,7 +79,7 @@ describe('E2E Test', () => {
     cy.getDataTest('add-to-cart')
     cy.getDataTest('go-to-cart').should('not.exist')
     cy.getDataTest('close-modal').click()
-    cy.wait(1000)
+    cy.getDataTest('book-modal').should('not.exist')
 
     //Open same book, check is not added, close modal
     cy.getDataTest('book-cover').eq(1).click()
@@ -89,7 +87,7 @@ describe('E2E Test', () => {
     cy.getDataTest('add-to-cart')
     cy.getDataTest('go-to-cart').should('not.exist')
     cy.getDataTest('close-modal').click()
-    cy.wait(1000)
+    cy.getDataTest('book-modal').should('not.exist')
 
     //Open free book, check is free, close modal
     cy.getDataTest('book-cover').eq(20).click()
@@ -104,43 +102,36 @@ describe('E2E Test', () => {
   it('Testing cart', () => {
     
     cy.getDataTest('order-by').select('HIGH_PRICE')
-    cy.wait(1000)
     
     //Add book to cart, go to cart, delete book, check cart is empty
     cy.getDataTest('cart-item').should('not.exist')
     cy.getDataTest('book-cover').eq(0).click()
     cy.getDataTest('book-modal')
     cy.getDataTest('add-to-cart').click()
-    cy.wait(1000)
 
     cy.getDataTest('cart-item').should('not.exist')
     cy.getDataTest('go-to-cart').click()
     cy.location('pathname').should('equal', '/cart')
     cy.getDataTest('cart-item').should('have.length', 1)
-    cy.wait(1000)
 
     cy.getDataTest('delete-item').eq(0).click()
     cy.getDataTest('cart-item').should('not.exist')
     cy.getDataTest('delete-item').should('not.exist')
-    cy.wait(1000)
 
     //Add 3 books to cart, go to cart, delete 1 book, check cart has 2 books
     cy.getDataTest('search-input').type('JavaScript{enter}')
-    cy.location('pathname').should('equal', '/JavaScript') 
+    cy.location('pathname').should('equal', '/JavaScript')
     cy.wait(['@getFreeBooks', '@getPaidBooks'])
 
     cy.getDataTest('order-by').select('HIGH_PRICE')
-    cy.wait(1000)
 
     cy.getDataTest('book-cover').eq(0).click()
     cy.getDataTest('add-to-cart').click()
     cy.getDataTest('close-modal').click()
-    cy.wait(1000)
 
-    cy.getDataTest('book-cover').eq(1).click()
+    cy.getDataTest('book-cover').eq(1).should('be.visible').click()
     cy.getDataTest('add-to-cart').click()
     cy.getDataTest('close-modal').click()
-    cy.wait(1000)
     
     cy.getDataTest('book-cover').eq(2).click()
     cy.getDataTest('add-to-cart').click()
