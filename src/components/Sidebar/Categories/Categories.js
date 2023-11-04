@@ -1,18 +1,14 @@
 import React from 'react';
 import './Categories.css';
 import { useNavigate } from 'react-router-dom';
-import { fetchBooks } from '../../../slices/bookSlice';
-import { useDispatch } from 'react-redux';
 import { useTranslation } from '../../../hooks/useTranslation';
 import ReactGA from 'react-ga4';
 
 export function Categories(){
     const navigate = useNavigate();
-    const dispatch = useDispatch();
     const t = useTranslation();
     
     function handleClick(e){
-        dispatch( fetchBooks(e.target.value) );
         navigate("/"+e.target.value);
         ReactGA.event("select_category", { category: e.target.value });
     }

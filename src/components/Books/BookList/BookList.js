@@ -20,8 +20,8 @@ export function BookList(){
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [param])
 
-    if (error.message !== undefined) {
-        return <main className="error">Error: {error.message}</main>;
+    if (error) {
+        return <main className="error">Error: {error}</main>;
     } else if (!isLoaded) {
         return <main className="loader"></main>;
     } else {

@@ -2,15 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { SearchOutlined } from '@ant-design/icons';
 import './SearchBar.css';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
-import { fetchBooks } from '../../../slices/bookSlice';
 import { useTranslation } from '../../../hooks/useTranslation';
 import ReactGA from 'react-ga4';
 
 export function SearchBar() {
   const location = useLocation()
   const navigate = useNavigate()
-  const dispatch = useDispatch()
   const [search, setSearch] = useState("")
   const t = useTranslation()
 
@@ -25,7 +22,6 @@ export function SearchBar() {
   function handleSubmit(e) {
     e.preventDefault();
     if (search !== ""){
-      dispatch( fetchBooks(search) );
       navigate('/'+search);
       ReactGA.event("search", { search_term: search });
     }
